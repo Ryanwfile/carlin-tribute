@@ -1,3 +1,9 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -6,6 +12,11 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+html{
+  font-size:18px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

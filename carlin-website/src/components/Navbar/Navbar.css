@@ -1,11 +1,46 @@
+:root{
+    --bg-start: #2c35a2;
+    --bg-end: #0f133b;
+
+    --highlight-fg: #161c49;
+    --highlight-primary: #73fff5;
+    --highlight-secondary: #cf0389;
+
+    --fg-color:rgba(255,255, 255, .9);
+    --transition: 250ms ease-out;
+}
+
 .logo{
     display:flex;
     width:1.5rem;
     height:1.5rem;
+    margin-right:3.25rem;
+    place-self: center;
+}
+
+.logo > p {
+    display:flex;
+    place-self:center;
 }
 
 a{
     text-decoration: none;
+    color:inherit;
+}
+
+nav{
+    display:grid;
+    grid-template-columns: 1fr 2.5fr;
+    font-size:2rem;
+    font-family: 'Frank Ruhl Libre', 'Montserrat', sans-serif;
+    font-weight:300;
+    text-transform: uppercase;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        var(--highlight-secondary),
+        transparent
+    )
 }
 
 nav > ul {
@@ -15,4 +50,5 @@ nav > ul {
     grid-column-gap: 2rem;
     list-style-type: none;
     text-decoration: none;
+  
 }

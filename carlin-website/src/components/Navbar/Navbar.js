@@ -6,7 +6,7 @@ import QuoteCarousel from '../QuoteCarousel/QuoteCarousel';
 import About from '../About/About';
 import Sounds from '../Sounds/Sounds';
 import './Navbar.css';
-import logo from '../../images/logo.svg';
+// import logo from '../../images/logo.svg';
 class Navbar extends React.Component {
   render() {
     return (
@@ -15,8 +15,8 @@ class Navbar extends React.Component {
           <div>
             <nav>
               <div class="logo">
-                <img src={logo}  alt="logo" />
-                Codereese
+                {/* <img src={logo}  alt="logo" /> */}
+                <p>Codereese</p>
               </div>
               <ul>
                 <li>
@@ -34,9 +34,6 @@ class Navbar extends React.Component {
                 <li>
                   <Link to="/sounds">Sound Clips</Link>
                 </li>
-                <li>
-                  <Link to="/example">Example to Test</Link>
-                </li>
               </ul>
             </nav>
 
@@ -51,14 +48,14 @@ class Navbar extends React.Component {
                 <QuoteCarousel />
               </Route>
               <Route path="/media">
-                <div> TO DO MEDIA</div>
                 <ImageCarousel />
               </Route>
               <Route>
                 <Sounds />
               </Route>
-              <Route path="/example">Test components here, get your test components</Route>
-              <Route path="/"></Route>
+              <Route path="/">
+                <About />
+              </Route>
             </Switch>
           </div>
         </Router>
