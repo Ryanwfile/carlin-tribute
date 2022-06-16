@@ -1,20 +1,15 @@
 import React from 'react';
-import './About.css';
+import styles from './About.module.css';
 import stage_microphone from '../../images/stage_microphone.jpg';
-
-const styles = {
-    width: "100%",
-    height: "400px",
-    backgroundImage: `url(${stage_microphone})`
-  };
+import { CONSTANTS } from '../../constants';
 
 function About(){
     return (
-        <div class="about-wrapper">
-            <div class = "image-wrapper" style= {styles}>
-                {/* <img src={stage_microphone} alt="red curtain stage microphone" /> */}
+        <div className={styles.aboutWrapper}>
+            <div>
+                <img src= {stage_microphone} alt ="red curtain stage" />
+               {CONSTANTS.ABOUT} 
             </div>
-            About George Carlin
         </div>
     )
 }

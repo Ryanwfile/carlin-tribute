@@ -5,7 +5,7 @@ import SimpleTabs from '../Excerpts/Excerpts'
 import QuoteCarousel from '../QuoteCarousel/QuoteCarousel';
 import About from '../About/About';
 import Sounds from '../Sounds/Sounds';
-import './Navbar.css';
+import styles from './Navbar.module.css';
 // import logo from '../../images/logo.svg';
 class Navbar extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class Navbar extends React.Component {
         <Router>
           <div>
             <nav>
-              <div class="logo">
+              <div className={styles.logo}>
                 {/* <img src={logo}  alt="logo" /> */}
                 <p>Codereese</p>
               </div>

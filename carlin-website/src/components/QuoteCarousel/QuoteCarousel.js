@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from 'react-material-ui-carousel';
 import { Paper, Button } from '@material-ui/core';
 import {CONSTANTS} from '../../constants';
-//might need a ref
+
 function QuoteCarousel(props)
 {     
     return (
@@ -20,10 +20,7 @@ function Item(props)
         <Paper>
             <h2>{props.item.name}</h2>
             <p>{props.item.quote}</p>
-
-            <Button className="CheckButton">
-              
-            </Button>
+            <Button className="CheckButton"></Button>
         </Paper>
     )
 }

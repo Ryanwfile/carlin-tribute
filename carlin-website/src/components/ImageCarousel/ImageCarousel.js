@@ -1,17 +1,17 @@
 import React from 'react';
-import './ImageCarousel.css';
+import styles from'./ImageCarousel.module.css';
 import Carousel from 'react-material-ui-carousel';
 import {CONSTANTS} from '../../constants';
 
 function ImageCarousel() {
           return (
-            <div class="carousel-wrapper">
+            <div className={styles.carouselWrapper}>
                 <Carousel interval={4000} >
-                    {CONSTANTS.IMAGES.map(item => {
+                    {CONSTANTS.IMAGES.map(image => {
                         return (
                             <div>
-                            <img src={item.src} alt="carlin" />
-                            <p className="legend">{item.name}</p>
+                            <img src={image.src} alt="carlin" />
+                            <p>{image.name}</p>
                         </div>
                         )
                     })}
