@@ -42,11 +42,15 @@ function allProps(index) {
   };
 }
 
+const rgb = (r, g, b) =>
+  `rgb(${Math.floor(r)},${Math.floor(g)},${Math.floor(b)})`;
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: rgb(14, 9, 9),
     whiteSpace: "pre-line",
+    color: "aliceblue",
   },
   tabs: {
     "& .MuiTabs-indicator": {
@@ -83,34 +87,36 @@ export default function SimpleTabs() {
           </Tabs>
         </div>
       </AppBar>
-      <TabPanel value={value} index={0} className="excerpts-wrapper">
-        <img
-          src={CONSTANTS.BRAIN_DROPPINGS.image.src}
-          alt={CONSTANTS.BRAIN_DROPPINGS.image.name}
-        />
-        {CONSTANTS.BRAIN_DROPPINGS.content}
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-        <img
-          src={CONSTANTS.PORK_CHOPS.image.src}
-          alt={CONSTANTS.PORK_CHOPS.image.name}
-        />
-        {CONSTANTS.PORK_CHOPS.content}
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-        <img
-          src={CONSTANTS.LAST_WORDS.image.src}
-          alt={CONSTANTS.LAST_WORDS.image.name}
-        />
-        {CONSTANTS.LAST_WORDS.content}
-      </TabPanel>
-      <TabPanel value={value} index={3}>
-        <img
-          src={CONSTANTS.NAPALM.image.src}
-          alt={CONSTANTS.NAPALM.image.name}
-        />
-        {CONSTANTS.NAPALM.content}
-      </TabPanel>
+      <div className="tabpanel-wrapper">
+        <TabPanel value={value} index={0}>
+          <img
+            src={CONSTANTS.BRAIN_DROPPINGS.image.src}
+            alt={CONSTANTS.BRAIN_DROPPINGS.image.name}
+          />
+          {CONSTANTS.BRAIN_DROPPINGS.content}
+        </TabPanel>
+        <TabPanel value={value} index={1}>
+          <img
+            src={CONSTANTS.PORK_CHOPS.image.src}
+            alt={CONSTANTS.PORK_CHOPS.image.name}
+          />
+          {CONSTANTS.PORK_CHOPS.content}
+        </TabPanel>
+        <TabPanel value={value} index={2}>
+          <img
+            src={CONSTANTS.LAST_WORDS.image.src}
+            alt={CONSTANTS.LAST_WORDS.image.name}
+          />
+          {CONSTANTS.LAST_WORDS.content}
+        </TabPanel>
+        <TabPanel value={value} index={3}>
+          <img
+            src={CONSTANTS.NAPALM.image.src}
+            alt={CONSTANTS.NAPALM.image.name}
+          />
+          {CONSTANTS.NAPALM.content}
+        </TabPanel>
+      </div>
     </div>
   );
 }
