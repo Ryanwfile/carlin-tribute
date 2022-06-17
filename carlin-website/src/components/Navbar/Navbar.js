@@ -14,7 +14,7 @@ class Navbar extends React.Component {
         <Router>
           <div>
             <nav>
-              <div className={styles.logo}>
+              <div className={styles.title}>
                 {/* <img src={logo}  alt="logo" /> */}
                 <p>George Carlin Tribute</p>
               </div>
