@@ -1,3 +1,5 @@
 .soundPlayer {
-    display: inline-block;
+  /* display: grid; */
+  border: 1px solid black;
+  /* grid-template-columns: 200px 200px 200px; */
 }

@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import ImageCarousel from '../ImageCarousel/ImageCarousel';
-import SimpleTabs from '../Excerpts/Excerpts'
-import QuoteCarousel from '../QuoteCarousel/QuoteCarousel';
-import About from '../About/About';
-import Sounds from '../Sounds/Sounds';
-import styles from './Navbar.module.css';
-// import logo from '../../images/logo.svg';
+import ImageCarousel from "../ImageCarousel/ImageCarousel";
+import SimpleTabs from "../Excerpts/Excerpts";
+import QuoteCarousel from "../QuoteCarousel/QuoteCarousel";
+import About from "../About/About";
+import Sounds from "../Sounds/Sounds";
+import styles from "./Navbar.module.css";
+
 class Navbar extends React.Component {
   render() {
     return (
@@ -16,7 +16,7 @@ class Navbar extends React.Component {
             <nav>
               <div className={styles.logo}>
                 {/* <img src={logo}  alt="logo" /> */}
-                <p>Codereese</p>
+                <p>George Carlin Tribute</p>
               </div>
               <ul>
                 <li>
@@ -60,7 +60,7 @@ class Navbar extends React.Component {
           </div>
         </Router>
       </div>
-    )
+    );
   }
 }
 
