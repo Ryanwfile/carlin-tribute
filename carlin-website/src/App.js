@@ -1,11 +1,62 @@
 import styles from "./App.module.css";
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Images from "./components/Images/Images";
+import Excerpts from "./components/Excerpts/Excerpts";
+import About from "./components/About/About";
+import Quotes from "./components/Quotes/Quotes";
+import Sounds from "./components/Sounds/Sounds";
 
 function App() {
   return (
     <div className={styles.app}>
-      <Navbar />
+      <Router>
+        <div>
+          <nav>
+            <div className={styles.title}>
+              <p>George Carlin Tribute</p>
+            </div>
+            <ul>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/excerpts">Excerpts</Link>
+              </li>
+              <li>
+                <Link to="/media">Media</Link>
+              </li>
+              <li>
+                <Link to="/quotes">Quotes</Link>
+              </li>
+              <li>
+                <Link to="/sounds">Sound Clips</Link>
+              </li>
+            </ul>
+          </nav>
+
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/excerpts">
+              <Excerpts />
+            </Route>
+            <Route path="/quotes">
+              <Quotes />
+            </Route>
+            <Route path="/media">
+              <Images />
+            </Route>
+            <Route>
+              <Sounds />
+            </Route>
+            <Route path="/">
+              <About />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
     </div>
   );
 }

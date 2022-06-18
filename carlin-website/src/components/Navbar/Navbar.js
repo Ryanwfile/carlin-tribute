@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import ImageCarousel from "../ImageCarousel/ImageCarousel";
+import ImageCarousel from "../Images/Images";
 import SimpleTabs from "../Excerpts/Excerpts";
-import QuoteCarousel from "../QuoteCarousel/QuoteCarousel";
+import QuoteCarousel from "../Quotes/Quotes";
 import About from "../About/About";
 import Sounds from "../Sounds/Sounds";
 import styles from "./Navbar.module.css";
@@ -15,7 +15,6 @@ class Navbar extends React.Component {
           <div>
             <nav>
               <div className={styles.title}>
-                {/* <img src={logo}  alt="logo" /> */}
                 <p>George Carlin Tribute</p>
               </div>
               <ul>
