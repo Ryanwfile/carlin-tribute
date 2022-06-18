@@ -10,15 +10,13 @@ import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
 import { CONSTANTS } from "../../constants";
-import { useState } from "react";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 const { IMAGES } = CONSTANTS;
 
 function Media() {
   const theme = useTheme();
-
-  const [activeStep, setActiveStep] = useState(0);
+  const [activeStep, setActiveStep] = React.useState(0);
   const maxSteps = IMAGES.length;
 
   const handleNext = () => {
@@ -41,7 +39,7 @@ function Media() {
         sx={{
           display: "flex",
           alignItems: "center",
-          height: 75,
+          height: 50,
           pl: 2,
           bgcolor: "background.default",
         }}
@@ -60,10 +58,12 @@ function Media() {
               <Box
                 component="img"
                 sx={{
+                  // height: childrenHeight,
                   display: "block",
                   maxWidth: 400,
                   overflow: "hidden",
                   width: "100%",
+                  // setChildrenHeight: setChildrenHeight,
                 }}
                 src={step.src}
                 alt={step.name}
