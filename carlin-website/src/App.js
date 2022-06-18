@@ -1,11 +1,12 @@
 import styles from "./App.module.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Images from "./components/Images/Images";
+// import Images from "./components/Images/Images";
 import Excerpts from "./components/Excerpts/Excerpts";
 import About from "./components/About/About";
 import Quotes from "./components/Quotes/Quotes";
 import Sounds from "./components/Sounds/Sounds";
+import Media from "./components/Media/Media";
 
 function App() {
   return (
@@ -27,14 +28,13 @@ function App() {
                 <Link to="/media">Media</Link>
               </li>
               <li>
-                <Link to="/quotes">Quotes</Link>
-              </li>
-              <li>
                 <Link to="/sounds">Sound Clips</Link>
               </li>
             </ul>
           </nav>
-
+          <div>
+            <Quotes />
+          </div>
           <Switch>
             <Route path="/about">
               <About />
@@ -42,11 +42,11 @@ function App() {
             <Route path="/excerpts">
               <Excerpts />
             </Route>
-            <Route path="/quotes">
+            {/* <Route path="/quotes">
               <Quotes />
-            </Route>
+            </Route> */}
             <Route path="/media">
-              <Images />
+              <Media />
             </Route>
             <Route>
               <Sounds />
