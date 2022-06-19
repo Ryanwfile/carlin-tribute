@@ -54,8 +54,8 @@ function Quotes(props) {
           return (
             <SwiperSlide className={swiperContainer}>
               <CardContent className={media} key={index}>
-                <Typography variant="h3" color="primary">
-                  {quote.quote}{" "}
+                <Typography variant="h4" color="primary">
+                  {quote.quote}
                 </Typography>
               </CardContent>
             </SwiperSlide>
