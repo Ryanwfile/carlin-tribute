@@ -55,13 +55,13 @@ export default function CardCustom(cardCustomProps) {
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        {/* {CONSTANTS.IMAGES.map((image, index) => {
+        {CONSTANTS.IMAGES.map((image, index) => {
           return (
             <SwiperSlide>
               <CardMedia image={image.src} className={media} key={index} />
             </SwiperSlide>
           );
-        })} */}
+        })}
       </Swiper>
     </Card>
   );
