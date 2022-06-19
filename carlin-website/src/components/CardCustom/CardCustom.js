@@ -1,16 +1,12 @@
 import { Card, CardMedia } from "@material-ui/core";
-// import { CardHeader } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-// import { CardContent } from "@material-ui/core";
-// import { CardActions } from "@material-ui/core";
-// import { IconButton } from "@material-ui/core";
-// import { Typography } from "@material-ui/core";
-import Swiper, { Navigation, Pagination, Scrollbar } from "swiper";
-// import Swiper from "swiper/bundle";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 
-// import "swiper/components/Navigation/Navigation.min.css";
-// import "swiper/components/Scrollbar/Scrollbar.min.css";
+// modules styles
+import "swiper/components/navigation/navigation.min.css";
+import "swiper/components/pagination/pagination.min.css";
 
 import { CONSTANTS } from "../../constants";
 
@@ -25,9 +21,27 @@ export default function CardCustom(cardCustomProps) {
   const { media } = useStyles();
   return (
     <Card>
-      {CONSTANTS.IMAGES.map((image) => {
-        return <CardMedia image={image.src} className={media} />;
-      })}
+      <Swiper
+        spaceBetween={50}
+        slidesPerView={3}
+        centeredSlides
+        // onSlideChange={() => console.log("slide change")}
+        // onSwiper={(swiper) => console.log(swiper)}
+      >
+        {CONSTANTS.IMAGES.map((image) => {
+          return (
+            <SwiperSlide>
+              <CardMedia image={image.src} className={media} />
+              {/* <div class="swiper-pagination"></div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <div class="swiper-scrollbar"></div> */}
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
     </Card>
   );
 }

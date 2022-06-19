@@ -1,7 +1,7 @@
 import styles from "./App.module.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-// import Images from "./components/Images/Images";
+
 import Excerpts from "./components/Excerpts/Excerpts";
 import About from "./components/About/About";
 import Quotes from "./components/Quotes/Quotes";
@@ -33,7 +33,7 @@ function App() {
           </div>
           <Switch>
             <Route path="/about">
-              <CarouselCustom></CarouselCustom>
+              <About />
             </Route>
             <Route path="/excerpts">
               <Excerpts />
@@ -45,6 +45,7 @@ function App() {
               <About />
             </Route>
           </Switch>
+          <CarouselCustom></CarouselCustom>
         </div>
       </Router>
     </div>

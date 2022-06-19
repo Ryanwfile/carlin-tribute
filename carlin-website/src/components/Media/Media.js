@@ -1,5 +1,4 @@
 import React from "react";
-import Images from "../Images/Images";
 import Sounds from "../Sounds/Sounds";
 import { Grid } from "@mui/material";
 
@@ -13,9 +12,7 @@ export default function Media() {
         alignItems="center"
         justifyContent="center"
       >
-        <Grid item xs={3}>
-          <Images />
-        </Grid>
+        <Grid item xs={3}></Grid>
         <Grid item xs={3}>
           <Sounds />
         </Grid>
