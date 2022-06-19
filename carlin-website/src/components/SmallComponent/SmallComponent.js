@@ -5,10 +5,8 @@ import Grid from "@material-ui/core/Grid";
 import Switch from "@material-ui/core/Switch";
 
 const useStyles = makeStyles((theme) => ({
-  // Styling material components
+  // when palette type is changed via setToggleDark used in the handleModeChange handler it applies the default theme which updates bg, and color
   root: {
-    width: "100%",
-    height: "100vh",
     backgroundColor: theme.palette.background.default,
     [theme.breakpoints.down("xs")]: {
       paddingTop: theme.spacing(2),
@@ -23,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
 export default function SmallComponent({ toggleDark, settoggleDark }) {
   const classes = useStyles();
 
-  // Trigger toggle using onChange Switch
+  // Trigger toggletheme using onChange Switch
   const handleModeChange = () => {
     settoggleDark(!toggleDark);
   };
