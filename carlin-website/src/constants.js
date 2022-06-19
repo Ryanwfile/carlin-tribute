@@ -102,7 +102,7 @@ export const CONSTANTS = {
         "I've never owned a telescope, but it's something I'm thinking of looking into.",
     },
     {
-      quote: "How do you know when a moth farts? It flies in a straight line",
+      quote: "How do you know when a moth farts? It flies in a straight line.",
     },
     {
       quote:
