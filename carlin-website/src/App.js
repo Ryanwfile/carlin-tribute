@@ -1,63 +1,55 @@
-import styles from "./App.module.css";
-import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import React, { useState } from "react";
+import SmallComponent from "./components/SmallComponent/SmallComponent";
+import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import { styled } from "@mui/material/styles";
+import Box from "@mui/material/Box";
+import Paper from "@mui/material/Paper";
+import Grid from "@mui/material/Grid";
 
-import Excerpts from "./components/Excerpts/Excerpts";
-import About from "./components/About/About";
-import Quotes from "./components/Quotes/Quotes";
-import Media from "./components/Media/Media";
-import CarouselCustom from "./components/CarouselCustom/CarouselCustom";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
-
-const darkTheme = createTheme({
-  palette: {
-    mode: "dark",
-  },
-});
+const Item = styled(Paper)(({ theme }) => ({
+  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: "center",
+  color: theme.palette.text.mode === "dark" ? "#1A2027" : "#fff",
+}));
 
 function App() {
+  const [toggleDark, settoggleDark] = useState(false);
+  const myTheme = createMuiTheme({
+    palette: {
+      type: toggleDark ? "dark" : "light",
+    },
+  });
+
   return (
-    <ThemeProvider theme={darkTheme}>
-      <div className={styles.app}>
-        <Router>
-          <div>
-            <nav>
-              <div className={styles.title}>
-                <p>George Carlin Tribute</p>
-              </div>
-              <ul>
-                <li>
-                  <Link to="/about">About</Link>
-                </li>
-                <li>
-                  <Link to="/excerpts">Excerpts</Link>
-                </li>
-                <li>
-                  <Link to="/media">Media</Link>
-                </li>
-              </ul>
-            </nav>
-            <div>
-              <Quotes />
-            </div>
-            <Switch>
-              <Route path="/about">
-                <About />
-              </Route>
-              <Route path="/excerpts">
-                <Excerpts />
-              </Route>
-              <Route path="/media">
-                <Media />
-              </Route>
-              <Route path="/">
-                <About />
-              </Route>
-            </Switch>
-            <CarouselCustom></CarouselCustom>
-          </div>
-        </Router>
-      </div>
+    <ThemeProvider theme={myTheme}>
+      <Box sx={{ flexGrow: 1 }}>
+        <Grid container spacing={2} justifyContent="center">
+          <Grid item xs={2}>
+            <SmallComponent
+              toggleDark={toggleDark}
+              settoggleDark={settoggleDark}
+            />
+          </Grid>
+          <Grid item xs={2}>
+            <Item>Title</Item>
+          </Grid>
+
+          <Grid item xs={4}>
+            <Item>Nav Bar Here</Item>
+          </Grid>
+          <Grid item xs={8}>
+            <Item>Quotes Carousel</Item>
+          </Grid>
+          <Grid item xs={8}>
+            <Item>About</Item>
+          </Grid>
+          <Grid item xs={8}>
+            <Item>Images Slider</Item>
+          </Grid>
+        </Grid>
+      </Box>
     </ThemeProvider>
   );
 }

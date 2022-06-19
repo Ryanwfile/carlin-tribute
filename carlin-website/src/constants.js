@@ -289,10 +289,10 @@ export const CONSTANTS = {
       src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/George_Carlin_-_Guys_Named_Todd.mp3",
       name: "guys named Todd",
     },
-    {
-      src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/Carlin-American_%20Bullshit.mp3",
-      name: "American BS",
-    },
+    // {
+    //   src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/Carlin-American_%20Bullshit.mp3",
+    //   name: "American BS",
+    // },
     {
       src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/George_Carlin_-_People_Who_Oughta_Be_Killed.mp3",
       name: "people who ought to be killed",
