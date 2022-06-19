@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SmallComponent({ toggleDark, settoggleDark }) {
+export default function ToggleTheme({ toggleDark, settoggleDark }) {
   const classes = useStyles();
 
   // Trigger toggletheme using onChange Switch

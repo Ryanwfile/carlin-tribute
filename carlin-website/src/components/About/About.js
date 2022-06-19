@@ -25,7 +25,6 @@ function About() {
       <div className={styles.aboutWrapper}>
         <Item>
           <h4 className={styles.title}>{CONSTANTS.ABOUT.title}</h4>
-          {/* <img src= {stage_microphone} alt ="red curtain stage" /> */}
           {CONSTANTS.ABOUT.content}
         </Item>
       </div>

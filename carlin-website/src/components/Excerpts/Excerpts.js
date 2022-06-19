@@ -1,89 +1,131 @@
-// import * as React from "react";
-// import Tabs from "@mui/material/Tabs";
-// import Tab from "@mui/material/Tab";
-// import Typography from "@mui/material/Typography";
-// import Box from "@mui/material/Box";
-// import { ThemeProvider, createTheme } from "@mui/material/styles";
-// import { styled } from "@mui/material/styles";
-// import Paper from "@mui/material/Paper";
+import React from "react";
+// import PropTypes from "prop-types";
+import { makeStyles } from "@material-ui/core/styles";
+import AppBar from "@material-ui/core/AppBar";
+import Tabs from "@material-ui/core/Tabs";
+import Tab from "@material-ui/core/Tab";
+import Typography from "@material-ui/core/Typography";
+import Box from "@material-ui/core/Box";
+import { CONSTANTS } from "../../constants";
 
-// const darkTheme = createTheme({
-//   palette: {
-//     mode: "dark",
-//   },
-// });
+function TabPanel(props) {
+  const { children, value, index, ...other } = props;
 
-// function TabPanel(props) {
-//   const { children, value, index, ...other } = props;
+  return (
+    <div
+      role="tabpanel"
+      hidden={value !== index}
+      id={`simple-tabpanel-${index}`}
+      aria-labelledby={`simple-tab-${index}`}
+      {...other}
+    >
+      {value === index && (
+        <Box p={3}>
+          <Typography>{children}</Typography>
+        </Box>
+      )}
+    </div>
+  );
+}
 
-//   return (
-//     <ThemeProvider theme={darkTheme}>
-//       <div
-//         role="tabpanel"
-//         hidden={value !== index}
-//         id={`simple-tabpanel-${index}`}
-//         aria-labelledby={`simple-tab-${index}`}
-//         {...other}
-//       >
-//         {value === index && (
-//           <Box sx={{ p: 3, bgcolor: "primary.main", color: "primary.main" }}>
-//             <Typography>{children}</Typography>
-//           </Box>
-//         )}
-//       </div>
-//     </ThemeProvider>
-//   );
-// }
+// TabPanel.propTypes = {
+//   children: PropTypes.node,
+//   index: PropTypes.any.isRequired,
+//   value: PropTypes.any.isRequired,
+// };
 
-// const Item = styled(Paper)(({ theme }) => ({
-//   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-//   ...theme.typography.body2,
-//   padding: theme.spacing(1),
-//   textAlign: "center",
-//   color: theme.palette.text.secondary,
-// }));
+function allProps(index) {
+  return {
+    id: `simple-tab-${index}`,
+    "aria-controls": `simple-tabpanel-${index}`,
+    centered: true,
+  };
+}
 
-// function a11yProps(index) {
-//   return {
-//     id: `simple-tab-${index}`,
-//     "aria-controls": `simple-tabpanel-${index}`,
-//   };
-// }
+// const rgb = (r, g, b) =>
+//   `rgb(${Math.floor(r)},${Math.floor(g)},${Math.floor(b)})`;
 
-// export default function Excerpts() {
-//   const [value, setValue] = React.useState(0);
+const useStyles = makeStyles((theme) => ({
+  root: {
+    // flexGrow: 1,
+    backgroundColor: theme.palette.background.default,
+    whiteSpace: "pre-line",
+    color: theme.palette.text.default,
+    // color: "aliceblue",
+  },
+  // tabs: {
+  //   "& .MuiTabs-indicator": {
+  //     backgroundColor: theme.palette.background.default,
+  //   },
+  // },
+  // "& .MuiAppBar-colorPrimary": {
+  //   backgroundColor: theme.palette.background.default,
+  //   color: theme.palette.text.default,
+  // },
+}));
 
-//   const handleChange = (event, newValue) => {
-//     setValue(newValue);
-//   };
+function Excerpts() {
+  const classes = useStyles();
+  console.log(classes);
+  const [value, setValue] = React.useState(0);
 
-//   return (
-//     <ThemeProvider theme={darkTheme}>
-//       <Box
-//         sx={{ width: "100%", bgcolor: "primary.main", color: "primary.main" }}
-//       >
-//         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-//           <Tabs
-//             value={value}
-//             onChange={handleChange}
-//             aria-label="basic tabs example"
-//             centered
-//           >
-//             <Tab label="Item One" {...a11yProps(0)} />
-//             <Tab label="Item Two" {...a11yProps(1)} />
-//             <Tab label="Item Three" {...a11yProps(2)} />
-//           </Tabs>
-//         </Box>
-//         <TabPanel value={value} index={0}>
-//           <Item>Item 1</Item>
-//         </TabPanel>
-//         <TabPanel value={value} index={1}>
-//           <Item>Item Two</Item>
-//         </TabPanel>
-//         <TabPanel value={value} index={2}>
-//           Item Three
-//         </TabPanel>
-//       </Box>
-//     </ThemeProvider>
-//   );
-// }
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
+  return (
+    <div>
+      <AppBar position="relative" className={classes.root}>
+        <div>
+          <Tabs
+            centered={true}
+            value={value}
+            onChange={handleChange}
+            aria-label="aria label for tab"
+            className={classes.root}
+          >
+            <Tab label="Brain Droppings" {...allProps(0)} />
+            <Tab
+              label="When Will Jesus Bring the Pork Chops"
+              {...allProps(1)}
+            />
+            <Tab label="Last Words With Tony Hendra" {...allProps(2)} />
+            <Tab label="Napalm and Silly Putty" {...allProps(3)} />
+          </Tabs>
+        </div>
+      </AppBar>
+      <div>
+        <TabPanel value={value} index={0}>
+          <img
+            src={CONSTANTS.BRAIN_DROPPINGS.image.src}
+            alt={CONSTANTS.BRAIN_DROPPINGS.image.name}
+          />
+          {CONSTANTS.BRAIN_DROPPINGS.content}
+        </TabPanel>
+        <TabPanel value={value} index={1}>
+          <img
+            src={CONSTANTS.PORK_CHOPS.image.src}
+            alt={CONSTANTS.PORK_CHOPS.image.name}
+          />
+          {CONSTANTS.PORK_CHOPS.content}
+        </TabPanel>
+        <TabPanel value={value} index={2}>
+          <img
+            src={CONSTANTS.LAST_WORDS.image.src}
+            alt={CONSTANTS.LAST_WORDS.image.name}
+          />
+          {CONSTANTS.LAST_WORDS.content}
+        </TabPanel>
+        <TabPanel value={value} index={3}>
+          <img
+            src={CONSTANTS.NAPALM.image.src}
+            alt={CONSTANTS.NAPALM.image.name}
+          />
+          {CONSTANTS.NAPALM.content}
+        </TabPanel>
+      </div>
+    </div>
+  );
+}
+
+export default Excerpts;
