@@ -28,16 +28,10 @@ export default function CardCustom(cardCustomProps) {
         // onSlideChange={() => console.log("slide change")}
         // onSwiper={(swiper) => console.log(swiper)}
       >
-        {CONSTANTS.IMAGES.map((image) => {
+        {CONSTANTS.IMAGES.map((image, index) => {
           return (
             <SwiperSlide>
-              <CardMedia image={image.src} className={media} />
-              {/* <div class="swiper-pagination"></div>
-
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-
-              <div class="swiper-scrollbar"></div> */}
+              <CardMedia image={image.src} className={media} key={index} />
             </SwiperSlide>
           );
         })}
