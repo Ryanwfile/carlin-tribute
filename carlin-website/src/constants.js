@@ -237,10 +237,6 @@ export const CONSTANTS = {
       src: "http://free-loops.com/data/mp3/e8/2b/ac6344eb2680002d96f66ed2f3ec.mp3",
       name: "7 dirty words",
     },
-    {
-      src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/Carlin-American_%20Bullshit.mp3",
-      name: "American BS",
-    },
     // {
     //     src: "https://www.wavsource.com/snds_2020-10-01_3728627494378403/people/comedians/carlin_trivial.wav",
     //     name: "Shit you don't care about"
@@ -292,6 +288,10 @@ export const CONSTANTS = {
     {
       src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/George_Carlin_-_Guys_Named_Todd.mp3",
       name: "guys named Todd",
+    },
+    {
+      src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/Carlin-American_%20Bullshit.mp3",
+      name: "American BS",
     },
     {
       src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/George_Carlin_-_People_Who_Oughta_Be_Killed.mp3",
