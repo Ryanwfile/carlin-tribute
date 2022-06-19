@@ -1,6 +1,13 @@
 import { Card, CardMedia } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { Swiper, SwiperSlide, autoplay } from "swiper/react";
+import SwiperCore, {
+  Autoplay,
+  Navigation,
+  Pagination,
+  Scrollbar,
+  EffectCoverflow,
+} from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 
@@ -14,29 +21,34 @@ import "swiper/components/pagination/pagination.min.css";
 // import "swiper/css/scrollbar";
 
 import { CONSTANTS } from "../../constants";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+// import { Navigation, Pagination, Scrollbar, A11y, Mousewheel } from "swiper";
 
+SwiperCore.use([Navigation, EffectCoverflow, Pagination, Scrollbar, Autoplay]);
 const useStyles = makeStyles({
   media: {
     height: 0,
     paddingTop: "100%",
   },
+  swiperContainer: {
+    paddingBottom: "3rem",
+  },
 });
 
 export default function CardCustom(cardCustomProps) {
-  const { media } = useStyles();
+  const { media, swiperContainer } = useStyles();
+
   return (
     <Card>
       <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        // modules={[Navigation, Pagination]}
         spaceBetween={50}
         slidesPerView={3}
         centeredSlides
         grabCursor
+        className={swiperContainer}
         keyboard={{ enabled: true }}
-        pagination={{ clickable: true }}
+        // pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
-        navigation
         loop
         autoplay={true}
         onSlideChange={() => console.log("slide change")}
