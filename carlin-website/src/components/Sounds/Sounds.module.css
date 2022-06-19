@@ -1,5 +1,10 @@
 .soundPlayer {
   /* display: grid; */
-  border: 1px solid black;
+  border: 2px solid black;
+  border-radius: 15%;
   /* grid-template-columns: 200px 200px 200px; */
+}
+.soundsWrapper {
+  background: black;
+  color: aliceblue;
 }

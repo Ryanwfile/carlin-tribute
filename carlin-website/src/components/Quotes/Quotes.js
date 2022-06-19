@@ -2,6 +2,8 @@ import React from "react";
 import Carousel from "react-material-ui-carousel";
 import { Paper, Button } from "@material-ui/core";
 import { CONSTANTS } from "../../constants";
+// import { styled } from "@mui/material/styles";
+// import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 function Quotes(props) {
   return (
@@ -12,6 +14,13 @@ function Quotes(props) {
     </Carousel>
   );
 }
+// const Item = styled(Paper)(({ theme }) => ({
+//   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
+//   ...theme.typography.body2,
+//   padding: theme.spacing(1),
+//   textAlign: "center",
+//   color: theme.palette.text.secondary,
+// }));
 
 function Item(props) {
   return (
