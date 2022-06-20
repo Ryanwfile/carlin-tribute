@@ -18,6 +18,8 @@ import carlin_young_shortHairPondering from "./images/carlin_young_shortHairPond
 import carlin_young_withBeardAndMic from "./images/carlin_young_withBeardAndMic.jpg";
 import carlin_younger_micWithSmile from "./images/carlin_younger_micWithSmile.jpg";
 import george_Carlin_1975 from "./images/george_Carlin_1975.jpg";
+import strange_culture from "./sounds/strange_culture.mp3";
+import single_bars from "./sounds/singles_bars_names.mp3";
 
 export const CONSTANTS = {
   ABOUT: {
@@ -302,9 +304,17 @@ export const CONSTANTS = {
       src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/George_Carlin_-_People_Who_Oughta_Be_Killed.mp3",
       name: "people who ought to be killed",
     },
+    // {
+    //   src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/George_Carlin_-_My_Daddy.mp3",
+    //   name: "my daddy",
+    // },
     {
-      src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/George_Carlin_-_My_Daddy.mp3",
-      name: "my daddy",
+      src: single_bars,
+      name: "Single Bar Names",
+    },
+    {
+      src: strange_culture,
+      name: "Great Country Strange Culture",
     },
   ],
   IMAGES: [
