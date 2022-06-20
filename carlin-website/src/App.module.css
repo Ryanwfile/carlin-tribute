@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --bg-start: #2c35a2;
   --bg-end: #0f133b;
 
@@ -8,9 +8,9 @@
 
   --fg-color: rgba(255, 255, 255, 0.9);
   --transition: 250ms ease-out;
-}
+} */
 
-.title {
+/* .title {
   display: flex;
   width: 1.5rem;
   height: 1.5rem;
@@ -22,7 +22,7 @@
 .title > p {
   display: flex;
   place-self: center;
-}
+} */
 
 a {
   text-decoration: none;
@@ -32,7 +32,7 @@ a {
 nav {
   display: grid;
   grid-template-columns: 1fr 2.5fr;
-  font-size: 2rem;
+  /* font-size: 2rem; */
   font-family: "Frank Ruhl Libre", "Montserrat", sans-serif;
   font-weight: 300;
   text-transform: uppercase;

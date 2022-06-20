@@ -38,22 +38,20 @@ export const CONSTANTS = {
     Carlin's film roles included a taxi driver in Car Wash, Frank Madras in Outrageous Fortune, Rufus in Bill & Ted's Excellent Adventure and 
     Bill & Ted's Bogus Journey, Eddie Detreville in The Prince of Tides, Cardinal Ignatius Glick in Dogma, Architect in Scary Movie 3, and Bart Trinké
     in Jersey Girl. He also had voice roles as Zugor in Tarzan II, Fillmore in Cars, and as Mr. Conductor on Shining Time Station, as well as narrating 
-    the American dubs for the Thomas & Friends segments. (Taken from https://en.wikipedia.org/wiki/George_Carlin)
-    
-    Biography
-
-    Birth name	George Denis Patrick Carlin
-    Born	May 12, 1937 New York City, U.S.
-    Died	June 22, 2008 (aged 71) Santa Monica, California, U.S.
+    the American dubs for the Thomas & Friends segments. (Taken from https://en.wikipedia.org/wiki/George_Carlin)`,
+    bio: `
+    Birth name:	George Denis Patrick Carlin
+    Born:	May 12, 1937 New York City, U.S.
+    Died:	June 22, 2008 (aged 71) Santa Monica, California, U.S.
     Medium: Stand-up, film, television, radio, literature
-    Years active	1956–2008
+    Years active:	1956–2008
     Genres: Observational comedy, character comedy, surreal comedy, blue comedy, dark comedy, wordplay, sarcasm, irony, satire
     Subject(s): American culture, society, politics, psychology, philosophy, profanity, everyday life, nihilism, religion, misanthropy, drug use, language, mass media, popular culture, current events, death, masculinity, family, parenting, race relations, old age
     Spouse: Brenda Hosbrook ​​(m. 1961; died 1997)​, Sally Wade ​​(m. 1998)​
 
     Children: Kelly Carlin
     Relative(s):	Patrick Carlin Jr. (brother)
-    Websites:	georgecarlin.com, georgecarlintribute.com `,
+    Websites:	georgecarlin.com, georgecarlintribute.com`,
   },
   QUOTES: [
     {
@@ -73,10 +71,7 @@ export const CONSTANTS = {
     {
       quote: "Is it illegal to charge admission to a free-for-all?",
     },
-    {
-      quote:
-        "One of my favorite things to do at a party is smoke a bunch of PCP and start taking people’s rectal temperatures without permission",
-    },
+
     {
       quote:
         "As a matter of principle I never attend the first annual anything.",
@@ -102,7 +97,7 @@ export const CONSTANTS = {
         "I've never owned a telescope, but it's something I'm thinking of looking into.",
     },
     {
-      quote: "How do you know when a moth farts? It flies in a straight line",
+      quote: "How do you know when a moth farts? It flies in a straight line.",
     },
     {
       quote:
@@ -127,6 +122,10 @@ export const CONSTANTS = {
     {
       quote:
         "If you love someone, set them free; if they come home, set them on fire",
+    },
+    {
+      quote:
+        "One of my favorite things to do at a party is smoke a bunch of PCP and start taking people’s rectal temperatures without permission",
     },
     {
       quote: "The straightest line between a short distance is two points.",
@@ -237,10 +236,6 @@ export const CONSTANTS = {
       src: "http://free-loops.com/data/mp3/e8/2b/ac6344eb2680002d96f66ed2f3ec.mp3",
       name: "7 dirty words",
     },
-    {
-      src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/Carlin-American_%20Bullshit.mp3",
-      name: "American BS",
-    },
     // {
     //     src: "https://www.wavsource.com/snds_2020-10-01_3728627494378403/people/comedians/carlin_trivial.wav",
     //     name: "Shit you don't care about"
@@ -293,6 +288,10 @@ export const CONSTANTS = {
       src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/George_Carlin_-_Guys_Named_Todd.mp3",
       name: "guys named Todd",
     },
+    // {
+    //   src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/Carlin-American_%20Bullshit.mp3",
+    //   name: "American BS",
+    // },
     {
       src: "https://www.skeptic.ca/Sound_Clips/George_Carlin/George_Carlin_-_People_Who_Oughta_Be_Killed.mp3",
       name: "people who ought to be killed",

@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
@@ -28,11 +28,11 @@ function TabPanel(props) {
   );
 }
 
-TabPanel.propTypes = {
-  children: PropTypes.node,
-  index: PropTypes.any.isRequired,
-  value: PropTypes.any.isRequired,
-};
+// TabPanel.propTypes = {
+//   children: PropTypes.node,
+//   index: PropTypes.any.isRequired,
+//   value: PropTypes.any.isRequired,
+// };
 
 function allProps(index) {
   return {
@@ -42,20 +42,13 @@ function allProps(index) {
   };
 }
 
-const rgb = (r, g, b) =>
-  `rgb(${Math.floor(r)},${Math.floor(g)},${Math.floor(b)})`;
+// const rgb = (r, g, b) =>
+//   `rgb(${Math.floor(r)},${Math.floor(g)},${Math.floor(b)})`;
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
-    backgroundColor: rgb(14, 9, 9),
+    backgroundColor: theme.palette.background.default,
     whiteSpace: "pre-line",
-    color: "aliceblue",
-  },
-  tabs: {
-    "& .MuiTabs-indicator": {
-      backgroundColor: "black",
-    },
   },
 }));
 
@@ -66,16 +59,21 @@ function Excerpts() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+
   return (
-    <div className={classes.root}>
-      <AppBar position="relative">
-        <div className={classes.container}>
+    <div
+      style={{
+        whiteSpace: "pre-line",
+      }}
+    >
+      <AppBar position="relative" className={classes.root}>
+        <div>
           <Tabs
             centered={true}
-            className={classes.tabs}
             value={value}
             onChange={handleChange}
-            aria-label="HELLO, CAN YOU SEE ME, I AM AN ARIA LABEL"
+            aria-label="aria label for tab"
+            textColor="primary"
           >
             <Tab label="Brain Droppings" {...allProps(0)} />
             <Tab
@@ -87,7 +85,7 @@ function Excerpts() {
           </Tabs>
         </div>
       </AppBar>
-      <div className="tabpanel-wrapper">
+      <div>
         <TabPanel value={value} index={0}>
           <img
             src={CONSTANTS.BRAIN_DROPPINGS.image.src}
