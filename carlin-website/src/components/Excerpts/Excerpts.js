@@ -58,10 +58,9 @@ const useStyles = makeStyles((theme) => ({
   //     backgroundColor: theme.palette.background.default,
   //   },
   // },
-  // "& .MuiAppBar-colorPrimary": {
-  //   backgroundColor: theme.palette.background.default,
-  //   color: theme.palette.text.default,
-  // },
+  "& .MuiAppBar-colorPrimary": {
+    color: "fff",
+  },
 }));
 
 function Excerpts() {

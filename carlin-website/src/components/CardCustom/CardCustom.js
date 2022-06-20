@@ -52,8 +52,8 @@ export default function CardCustom(cardCustomProps) {
         scrollbar={{ draggable: true }}
         loop
         autoplay={true}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => }
+        onSwiper={(swiper) => }
       >
         {CONSTANTS.IMAGES.map((image, index) => {
           return (

@@ -75,7 +75,7 @@ function App() {
                     <About />
                   </Route>
                   <Route path="/excerpts">
-                    <Excerpts />
+                    <Excerpts isDarkTheme={toggleDark} />
                   </Route>
                   <Route path="/media">
                     <Media />
