@@ -29,6 +29,9 @@ function App() {
     palette: {
       type: toggleDark ? "dark" : "light",
     },
+    typography: {
+      fontFamily: ["Frank Ruhl Libre", "Montserrat", "sans-serif"].join(","),
+    },
   });
 
   return (
