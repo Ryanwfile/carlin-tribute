@@ -207,9 +207,6 @@ export const CONSTANTS = {
         "I read that some guy was giving up the governor's chair to run for a Senate seat. Why would he give up a chair to run for a seat? Why not be a judge and sit on the bench?",
     },
     {
-      quote: "Hard work is for people short on talent",
-    },
-    {
       quote: "If you can't beat them arrange to have them beaten",
     },
     {

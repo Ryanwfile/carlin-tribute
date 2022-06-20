@@ -13,8 +13,6 @@ import Media from "./components/Media/Media";
 import "./App.module.css";
 import CarouselCustom from "./components/CarouselCustom/CarouselCustom";
 import { Typography } from "@mui/material";
-// import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
-// import Bio from "./components/Bio/Bio";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",

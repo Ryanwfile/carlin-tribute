@@ -31,7 +31,11 @@ export default function Sounds() {
                 <Grid item xs={3}>
                   <Item>
                     <h4>{sound.name}</h4>
-                    <audio controls src={sound.src}></audio>
+                    <audio
+                      controls
+                      src={sound.src}
+                      style={{ width: "60%" }}
+                    ></audio>
                   </Item>
                 </Grid>
               );
