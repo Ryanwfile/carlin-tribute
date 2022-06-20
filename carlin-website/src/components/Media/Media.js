@@ -14,9 +14,6 @@ export default function Media() {
         alignItems="center"
         justifyContent="center"
       >
-        <Grid item xs={3}>
-          <Sounds />
-        </Grid>
         <Grid item container xs={12} spacing={0.25} justifyContent="center">
           {CONSTANTS.VIDEOS.map((video, index) => {
             return (
@@ -29,6 +26,9 @@ export default function Media() {
               </Grid>
             );
           })}
+        </Grid>
+        <Grid item xs={3}>
+          <Sounds />
         </Grid>
       </Grid>
     </div>
