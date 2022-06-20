@@ -591,12 +591,16 @@ export const CONSTANTS = {
   },
   VIDEOS: [
     {
-      src: `hwCHMM23B18`,
-      name: "Chris Rock interviews George Carlin",
-    },
-    {
       src: `-sdQgLmZgqs`,
       name: "Napalm and Silly Putty Part 1",
+    },
+    {
+      src: `ooYCwd4uGN8`,
+      name: "Napalm and Silly Putty Part 2",
+    },
+    {
+      src: `hwCHMM23B18`,
+      name: "Chris Rock interviews George Carlin",
     },
     {
       src: `s-clvDxl8qI`,
@@ -609,10 +613,6 @@ export const CONSTANTS = {
     {
       src: `Uf2QgFqOwsc`,
       name: "Brain Droppings",
-    },
-    {
-      src: `ooYCwd4uGN8`,
-      name: "Napalm and Silly Putty Part 2",
     },
     {
       src: `YqLnVx21M54`,
@@ -637,6 +637,18 @@ export const CONSTANTS = {
     {
       src: `aIkqNiBASfI`,
       name: "Baseball versus Football",
+    },
+    {
+      src: `byWx7aEUNxY`,
+      name: "Muhammad Ali Vietnam",
+    },
+    {
+      src: `CTvAs-Us7gA`,
+      name: "Persian Gulf War",
+    },
+    {
+      src: `i2PiDtHbLOY`,
+      name: "Magazines",
     },
   ],
 };
