@@ -25,6 +25,7 @@ const useStyles = makeStyles({
     height: 0,
     paddingTop: 0,
     textAlign: "center",
+    fontFamily: "Courier Prime",
   },
   swiperContainer: {
     paddingTop: 0,
@@ -39,12 +40,13 @@ function Quotes(props) {
         // modules={[Navigation, Pagination]}
         spaceBetween={50}
         slidesPerView={1}
+        speed={5000}
         centeredSlides
         grabCursor
         className={swiperContainer}
         keyboard={{ enabled: true }}
         // pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
+        // scrollbar={{ draggable: true }}
         loop
         autoplay={true}
         onSlideChange={() => console.log("slide change")}
@@ -54,7 +56,14 @@ function Quotes(props) {
           return (
             <SwiperSlide className={swiperContainer}>
               <CardContent className={media} key={index}>
-                <Typography variant="h4">{quote.quote}</Typography>
+                <Typography
+                  variant="h4"
+                  style={{
+                    fontFamily: "Courier M",
+                  }}
+                >
+                  {quote.quote}
+                </Typography>
               </CardContent>
             </SwiperSlide>
           );

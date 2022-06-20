@@ -8,7 +8,7 @@ export default function CarouselCustom(carouselProps) {
         <Grid
           item
           xs={12}
-          style={{ height: ".2vh", display: "grid", placeItems: "center" }}
+          style={{ height: "0", display: "grid", placeItems: "center" }}
         ></Grid>
         <Grid item container xs={12} justify="center">
           <Grid item xs={6}>

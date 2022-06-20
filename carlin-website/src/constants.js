@@ -71,10 +71,7 @@ export const CONSTANTS = {
     {
       quote: "Is it illegal to charge admission to a free-for-all?",
     },
-    {
-      quote:
-        "One of my favorite things to do at a party is smoke a bunch of PCP and start taking people’s rectal temperatures without permission",
-    },
+
     {
       quote:
         "As a matter of principle I never attend the first annual anything.",
@@ -125,6 +122,10 @@ export const CONSTANTS = {
     {
       quote:
         "If you love someone, set them free; if they come home, set them on fire",
+    },
+    {
+      quote:
+        "One of my favorite things to do at a party is smoke a bunch of PCP and start taking people’s rectal temperatures without permission",
     },
     {
       quote: "The straightest line between a short distance is two points.",

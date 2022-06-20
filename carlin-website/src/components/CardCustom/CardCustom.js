@@ -49,7 +49,7 @@ export default function CardCustom(cardCustomProps) {
         className={swiperContainer}
         keyboard={{ enabled: true }}
         // pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
+        // scrollbar={{ draggable: true }}
         loop
         autoplay={true}
         onSlideChange={() => console.log("slide change")}
