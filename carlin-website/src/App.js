@@ -49,19 +49,21 @@ function App() {
             </Grid>
             <Grid item xs={4}>
               <Item>
-                <nav>
-                  <ul>
-                    <li>
-                      <Link to="/about">About</Link>
-                    </li>
-                    <li>
-                      <Link to="/excerpts">Excerpts</Link>
-                    </li>
-                    <li>
-                      <Link to="/media">Media</Link>
-                    </li>
-                  </ul>
-                </nav>
+                <header>
+                  <nav>
+                    <ul>
+                      <li>
+                        <Link to="/about">About</Link>
+                      </li>
+                      <li>
+                        <Link to="/excerpts">Excerpts</Link>
+                      </li>
+                      <li>
+                        <Link to="/media">Media</Link>
+                      </li>
+                    </ul>
+                  </nav>
+                </header>
               </Item>
             </Grid>
             <Grid item xs={8}>

@@ -63,6 +63,13 @@ export const CONSTANTS = {
     },
     {
       quote:
+        "Recent polls reveal that some people have never been polled.  Until recently.",
+    },
+    {
+      quote: "How do you know when a moth farts? It flies in a straight line.",
+    },
+    {
+      quote:
         'Best seller really only means "good seller." There can only be one best seller. All the rest are good sellers. Each succeeding book on the list is a "better seller."',
     },
     {
@@ -78,16 +85,17 @@ export const CONSTANTS = {
     },
     {
       quote:
+        "America was founded by slave owners who informed us all men are created equal.",
+    },
+    {
+      quote:
         "Honesty may be the best policy, but it’s important to remember that, apparently, by elimination, dishonesty is the second best policy.  Second is not all that bad.",
     },
     {
       quote:
         "I was reading a fitness magazine that had an article about cross-training, and I realized this would have been a good idea for Jesus.",
     },
-    {
-      quote:
-        "Recent polls reveal that some people have never been polled.  Until recently.",
-    },
+
     {
       quote:
         "If you vote once, you’re considered a good citizen.  If you vote twice, you face four years in jail.",
@@ -96,9 +104,7 @@ export const CONSTANTS = {
       quote:
         "I've never owned a telescope, but it's something I'm thinking of looking into.",
     },
-    {
-      quote: "How do you know when a moth farts? It flies in a straight line.",
-    },
+
     {
       quote:
         "TRUE FACT A radio commercial says that a certain diet pill works three times faster than starvation.  Question: Are they guessing, or did they really run these tests?",
