@@ -338,24 +338,24 @@ export const CONSTANTS = {
       src: carlin_cardinalGlick,
     },
   ],
-  EXCERPTS_IMAGES: [
-    {
-      name: "Brain Droppings",
-      src: "https://images-na.ssl-images-amazon.com/images/I/51lXgxnM5ZL._SX365_BO1,204,203,200_.jpg",
-    },
-    {
-      name: "When Will Jesus Bring the Pork Chops?",
-      src: "https://images-na.ssl-images-amazon.com/images/I/5199NVE9YBL._SX359_BO1,204,203,200_.jpg",
-    },
-    {
-      name: "Last Word With Tony Hendra",
-      src: "https://images-na.ssl-images-amazon.com/images/I/51Ci9Naaz0L._SX322_BO1,204,203,200_.jpg",
-    },
-    {
-      name: "Napalm and Silly Putty",
-      src: "https://images-na.ssl-images-amazon.com/images/I/61vG7tuf7nL._SY497_BO1,204,203,200_.jpg",
-    },
-  ],
+  // EXCERPTS_IMAGES: [
+  //   {
+  //     name: "Brain Droppings",
+  //     src: "https://images-na.ssl-images-amazon.com/images/I/51lXgxnM5ZL._SX365_BO1,204,203,200_.jpg",
+  //   },
+  //   {
+  //     name: "When Will Jesus Bring the Pork Chops?",
+  //     src: "https://images-na.ssl-images-amazon.com/images/I/5199NVE9YBL._SX359_BO1,204,203,200_.jpg",
+  //   },
+  //   {
+  //     name: "Last Word With Tony Hendra",
+  //     src: "https://images-na.ssl-images-amazon.com/images/I/51Ci9Naaz0L._SX322_BO1,204,203,200_.jpg",
+  //   },
+  //   {
+  //     name: "Napalm and Silly Putty",
+  //     src: "https://images-na.ssl-images-amazon.com/images/I/61vG7tuf7nL._SY497_BO1,204,203,200_.jpg",
+  //   },
+  // ],
   BRAIN_DROPPINGS: {
     image: {
       name: "Brain Droppings",
@@ -589,4 +589,54 @@ export const CONSTANTS = {
     content: `A Florida man who wrestles alligators for a living was eaten alive today when the alligator apparently did not understand the universal signal for “time-out.”
     You know what’s fun?  Go to a German restaurant and insist on using chopsticks. `,
   },
+  VIDEOS: [
+    {
+      src: `www.youtube.com/embed/hwCHMM23B18`,
+      name: "Chris Rock interviews George Carlin",
+    },
+    {
+      src: `www.youtube.com//embed/-sdQgLmZgqs`,
+      name: "Napalm and Silly Putty Part 1",
+    },
+    {
+      src: `www.youtube.com/embed/s-clvDxl8qI`,
+      name: "George Carlin Unmasked",
+    },
+    {
+      src: `www.youtube.com/embed/RV9sAZ09s1c`,
+      name: "Hannity and Colmes Interview George Carlin",
+    },
+    {
+      src: `www.youtube.com/embed/Uf2QgFqOwsc`,
+      name: "Brain Droppings",
+    },
+    {
+      src: `www.youtube.com/embed/ooYCwd4uGN8`,
+      name: "Napalm and Silly Putty Part 2",
+    },
+    {
+      src: `www.youtube.com/embed/YqLnVx21M54`,
+      name: "When Will Jesus Bring the Pork Chops?",
+    },
+    {
+      src: `www.youtube.com/embed/kyBH5oNQOS0`,
+      name: "Seven Dirty Words",
+    },
+    {
+      src: `www.youtube.com/embed/8r-e2NDSTuE`,
+      name: "The Best Liars",
+    },
+    {
+      src: `www.youtube.com/embed/MvgN5gCuLac`,
+      name: "Stuff",
+    },
+    {
+      src: `www.youtube.com/embed/vdPy5Ikn7dw`,
+      name: "Airplane Announcements",
+    },
+    {
+      src: `www.youtube.com/embed/aIkqNiBASfI`,
+      name: "Baseball versus Football",
+    },
+  ],
 };
