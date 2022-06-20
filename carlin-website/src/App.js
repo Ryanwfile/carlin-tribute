@@ -11,6 +11,7 @@ import About from "./components/About/About";
 import Quotes from "./components/Quotes/Quotes";
 import Media from "./components/Media/Media";
 import "./App.module.css";
+import CarouselCustom from "./components/CarouselCustom/CarouselCustom";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -84,7 +85,9 @@ function App() {
               </Item>
             </Grid>
             <Grid item xs={8}>
-              <Item>Images Slider</Item>
+              <Item>
+                <CarouselCustom />
+              </Item>
             </Grid>
           </Grid>
         </Box>

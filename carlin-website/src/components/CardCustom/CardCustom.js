@@ -26,7 +26,7 @@ import { CONSTANTS } from "../../constants";
 SwiperCore.use([Navigation, EffectCoverflow, Pagination, Scrollbar, Autoplay]);
 const useStyles = makeStyles({
   media: {
-    height: 0,
+    height: "2vh",
     paddingTop: "100%",
   },
   swiperContainer: {
@@ -52,8 +52,8 @@ export default function CardCustom(cardCustomProps) {
         scrollbar={{ draggable: true }}
         loop
         autoplay={true}
-        onSlideChange={() => }
-        onSwiper={(swiper) => }
+        onSlideChange={() => console.log("slide change")}
+        onSwiper={(swiper) => console.log(swiper)}
       >
         {CONSTANTS.IMAGES.map((image, index) => {
           return (

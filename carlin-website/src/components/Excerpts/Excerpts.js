@@ -47,25 +47,13 @@ function allProps(index) {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    // flexGrow: 1,
     backgroundColor: theme.palette.background.default,
     whiteSpace: "pre-line",
-    // color: theme.palette.text.default,
-    // color: "aliceblue",
-  },
-  // tabs: {
-  //   "& .MuiTabs-indicator": {
-  //     backgroundColor: theme.palette.background.default,
-  //   },
-  // },
-  "& .MuiAppBar-colorPrimary": {
-    color: "fff",
   },
 }));
 
 function Excerpts() {
   const classes = useStyles();
-  console.log(classes);
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -73,7 +61,11 @@ function Excerpts() {
   };
 
   return (
-    <div>
+    <div
+      style={{
+        whiteSpace: "pre-line",
+      }}
+    >
       <AppBar position="relative" className={classes.root}>
         <div>
           <Tabs
@@ -81,7 +73,6 @@ function Excerpts() {
             value={value}
             onChange={handleChange}
             aria-label="aria label for tab"
-            className={classes.root}
             textColor="primary"
           >
             <Tab label="Brain Droppings" {...allProps(0)} />
