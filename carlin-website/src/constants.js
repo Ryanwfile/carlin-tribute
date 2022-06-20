@@ -591,51 +591,51 @@ export const CONSTANTS = {
   },
   VIDEOS: [
     {
-      src: `www.youtube.com/embed/hwCHMM23B18`,
+      src: `hwCHMM23B18`,
       name: "Chris Rock interviews George Carlin",
     },
     {
-      src: `www.youtube.com//embed/-sdQgLmZgqs`,
+      src: `-sdQgLmZgqs`,
       name: "Napalm and Silly Putty Part 1",
     },
     {
-      src: `www.youtube.com/embed/s-clvDxl8qI`,
+      src: `s-clvDxl8qI`,
       name: "George Carlin Unmasked",
     },
     {
-      src: `www.youtube.com/embed/RV9sAZ09s1c`,
+      src: `RV9sAZ09s1c`,
       name: "Hannity and Colmes Interview George Carlin",
     },
     {
-      src: `www.youtube.com/embed/Uf2QgFqOwsc`,
+      src: `Uf2QgFqOwsc`,
       name: "Brain Droppings",
     },
     {
-      src: `www.youtube.com/embed/ooYCwd4uGN8`,
+      src: `ooYCwd4uGN8`,
       name: "Napalm and Silly Putty Part 2",
     },
     {
-      src: `www.youtube.com/embed/YqLnVx21M54`,
+      src: `YqLnVx21M54`,
       name: "When Will Jesus Bring the Pork Chops?",
     },
     {
-      src: `www.youtube.com/embed/kyBH5oNQOS0`,
+      src: `kyBH5oNQOS0`,
       name: "Seven Dirty Words",
     },
     {
-      src: `www.youtube.com/embed/8r-e2NDSTuE`,
+      src: `8r-e2NDSTuE`,
       name: "The Best Liars",
     },
     {
-      src: `www.youtube.com/embed/MvgN5gCuLac`,
+      src: `MvgN5gCuLac`,
       name: "Stuff",
     },
     {
-      src: `www.youtube.com/embed/vdPy5Ikn7dw`,
+      src: `vdPy5Ikn7dw`,
       name: "Airplane Announcements",
     },
     {
-      src: `www.youtube.com/embed/aIkqNiBASfI`,
+      src: `aIkqNiBASfI`,
       name: "Baseball versus Football",
     },
   ],

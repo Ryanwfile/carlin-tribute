@@ -2,6 +2,7 @@ import React from "react";
 import Sounds from "../Sounds/Sounds";
 import { Grid } from "@mui/material";
 import VideoPlayer from "../VideoPlayer/VideoPlayer";
+import { CONSTANTS } from "../../constants";
 
 export default function Media() {
   return (
@@ -17,9 +18,13 @@ export default function Media() {
         <Grid item xs={3}>
           <Sounds />
         </Grid>
-        <Grid item xs={3}>
-          <VideoPlayer />
-        </Grid>
+        {CONSTANTS.VIDEOS.map((video, index) => {
+          return (
+            <Grid item xs={3}>
+              <VideoPlayer videoId={video.src} name={video.name} key={index} />
+            </Grid>
+          );
+        })}
       </Grid>
     </div>
   );
