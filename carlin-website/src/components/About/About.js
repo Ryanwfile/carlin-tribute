@@ -25,7 +25,7 @@ function About() {
     <div className={styles.aboutWrapper}>
       <Item>
         <Typography variant="h5">{CONSTANTS.ABOUT.title} </Typography>
-        {CONSTANTS.ABOUT.content}
+        <Typography variant="body2"> {CONSTANTS.ABOUT.content}</Typography>
       </Item>
     </div>
   );
