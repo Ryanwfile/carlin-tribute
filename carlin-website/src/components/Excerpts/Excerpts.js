@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
     // flexGrow: 1,
     backgroundColor: theme.palette.background.default,
     whiteSpace: "pre-line",
-    color: theme.palette.text.default,
+    // color: theme.palette.text.default,
     // color: "aliceblue",
   },
   // tabs: {
@@ -82,6 +82,7 @@ function Excerpts() {
             onChange={handleChange}
             aria-label="aria label for tab"
             className={classes.root}
+            textColor="primary"
           >
             <Tab label="Brain Droppings" {...allProps(0)} />
             <Tab
