@@ -12,6 +12,7 @@ import Quotes from "./components/Quotes/Quotes";
 import Media from "./components/Media/Media";
 import "./App.module.css";
 import CarouselCustom from "./components/CarouselCustom/CarouselCustom";
+import { Typography } from "@mui/material";
 // import Bio from "./components/Bio/Bio";
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -34,15 +35,17 @@ function App() {
     <ThemeProvider theme={myTheme}>
       <Router>
         <Box sx={{ flexGrow: 1 }}>
-          <Grid container spacing={12} justifyContent="center">
+          <Grid container spacing={1} justifyContent="center">
             <Grid item xs={2}>
               <ToggleTheme
                 isDarkTheme={toggleDark}
                 settoggleDark={settoggleDark}
               />
             </Grid>
-            <Grid item xs={2}>
-              <Item>George Carlin Tribute</Item>
+            <Grid item xs={2} alignSelf="center">
+              <Item>
+                <Typography variant="h5">George Carlin Tribute</Typography>
+              </Item>
             </Grid>
             <Grid item xs={4}>
               <Item>
