@@ -45,7 +45,7 @@ export default function CardCustom(cardCustomProps) {
         spaceBetween={50}
         slidesPerView={3}
         centeredSlides
-        grabCursor
+        // grabCursor
         className={swiperContainer}
         keyboard={{ enabled: true }}
         // pagination={{ clickable: true }}

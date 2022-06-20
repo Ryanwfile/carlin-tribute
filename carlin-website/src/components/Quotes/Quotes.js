@@ -42,7 +42,6 @@ function Quotes(props) {
         slidesPerView={1}
         speed={5000}
         centeredSlides
-        grabCursor
         className={swiperContainer}
         keyboard={{ enabled: true }}
         // pagination={{ clickable: true }}

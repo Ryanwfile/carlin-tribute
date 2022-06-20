@@ -6,7 +6,7 @@ import Grid from "@material-ui/core/Grid";
 import Switch from "@material-ui/core/Switch";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
-import { useTheme } from "@mui/material/styles";
+// import { useTheme } from "@mui/material/styles";
 
 const useStyles = makeStyles((theme) => ({
   // when palette type is changed via setToggleDark used in the handleModeChange handler it applies the default theme which updates bg, and color
@@ -21,12 +21,12 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "56.25%", // 16:9
   },
 }));
-const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
+// const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
 
 export default function ToggleTheme({ isDarkTheme, settoggleDark }) {
-  const theme = useTheme();
+  // const theme = useTheme();
   const classes = useStyles();
-  const colorMode = React.useContext(ColorModeContext);
+  // const colorMode = React.useContext(ColorModeContext);
   // Trigger toggletheme using onChange Switch
   const handleModeChange = () => {
     settoggleDark(!isDarkTheme);
@@ -40,15 +40,11 @@ export default function ToggleTheme({ isDarkTheme, settoggleDark }) {
     >
       <Card elevation={8}>
         <IconButton
-          sx={{ ml: 1 }}
-          onClick={colorMode.toggleColorMode}
+          // sx={{ ml: 1 }}
+          // onClick={colorMode.toggleColorMode}
           color="inherit"
         >
-          {theme.palette.mode === "dark" ? (
-            <Brightness7Icon />
-          ) : (
-            <Brightness4Icon />
-          )}
+          {isDarkTheme ? <Brightness7Icon /> : <Brightness4Icon />}
         </IconButton>
         <Switch
           checked={isDarkTheme}
