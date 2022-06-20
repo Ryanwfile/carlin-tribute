@@ -1,5 +1,6 @@
 import React from "react";
 // import PropTypes from "prop-types";
+// import { Card, CardMedia } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
@@ -50,6 +51,10 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.default,
     whiteSpace: "pre-line",
   },
+  media: {
+    height: 0,
+    paddingTop: "100%",
+  },
 }));
 
 function Excerpts() {
@@ -87,13 +92,18 @@ function Excerpts() {
       </AppBar>
       <div>
         <TabPanel value={value} index={0}>
+          {/* <Card>
+            <CardMedia
+              className={classes.media}
+              image={CONSTANTS.BRAIN_DROPPINGS.image.src}
+            ></CardMedia>
+          </Card> */}
           <img
             src={CONSTANTS.BRAIN_DROPPINGS.image.src}
             alt={CONSTANTS.BRAIN_DROPPINGS.image.name}
           />
           <Typography variant="body2">
-            {" "}
-            {CONSTANTS.BRAIN_DROPPINGS.content}{" "}
+            {CONSTANTS.BRAIN_DROPPINGS.content}
           </Typography>
         </TabPanel>
         <TabPanel value={value} index={1}>

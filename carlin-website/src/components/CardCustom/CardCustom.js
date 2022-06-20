@@ -35,7 +35,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function CardCustom(cardCustomProps) {
+export default function CardCustom(cardProps) {
   const { media, swiperContainer } = useStyles();
 
   return (
