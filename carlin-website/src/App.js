@@ -12,6 +12,7 @@ import Quotes from "./components/Quotes/Quotes";
 import Media from "./components/Media/Media";
 import "./App.module.css";
 import CarouselCustom from "./components/CarouselCustom/CarouselCustom";
+// import Bio from "./components/Bio/Bio";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -33,7 +34,7 @@ function App() {
     <ThemeProvider theme={myTheme}>
       <Router>
         <Box sx={{ flexGrow: 1 }}>
-          <Grid container spacing={2} justifyContent="center">
+          <Grid container spacing={12} justifyContent="center">
             <Grid item xs={2}>
               <ToggleTheme
                 toggleDark={toggleDark}
@@ -43,7 +44,6 @@ function App() {
             <Grid item xs={2}>
               <Item>George Carlin Tribute</Item>
             </Grid>
-
             <Grid item xs={4}>
               <Item>
                 <nav>
@@ -70,7 +70,22 @@ function App() {
               <Item>
                 <Switch>
                   <Route exact path="/">
-                    <About />
+                    <Grid
+                      item
+                      container
+                      xs={12}
+                      sx={{
+                        paddingTop: -500,
+                      }}
+                    >
+                      {/* <Grid item xs={3}>
+                        <Bio></Bio>
+                      </Grid> */}
+                      {/* <Grid item xs={1}></Grid> */}
+                      <Grid item xs={12}>
+                        <About />
+                      </Grid>
+                    </Grid>
                   </Route>
                   <Route path="/about">
                     <About />

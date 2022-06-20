@@ -38,22 +38,20 @@ export const CONSTANTS = {
     Carlin's film roles included a taxi driver in Car Wash, Frank Madras in Outrageous Fortune, Rufus in Bill & Ted's Excellent Adventure and 
     Bill & Ted's Bogus Journey, Eddie Detreville in The Prince of Tides, Cardinal Ignatius Glick in Dogma, Architect in Scary Movie 3, and Bart Trinké
     in Jersey Girl. He also had voice roles as Zugor in Tarzan II, Fillmore in Cars, and as Mr. Conductor on Shining Time Station, as well as narrating 
-    the American dubs for the Thomas & Friends segments. (Taken from https://en.wikipedia.org/wiki/George_Carlin)
-    
-    Biography
-
-    Birth name	George Denis Patrick Carlin
-    Born	May 12, 1937 New York City, U.S.
-    Died	June 22, 2008 (aged 71) Santa Monica, California, U.S.
+    the American dubs for the Thomas & Friends segments. (Taken from https://en.wikipedia.org/wiki/George_Carlin)`,
+    bio: `
+    Birth name:	George Denis Patrick Carlin
+    Born:	May 12, 1937 New York City, U.S.
+    Died:	June 22, 2008 (aged 71) Santa Monica, California, U.S.
     Medium: Stand-up, film, television, radio, literature
-    Years active	1956–2008
+    Years active:	1956–2008
     Genres: Observational comedy, character comedy, surreal comedy, blue comedy, dark comedy, wordplay, sarcasm, irony, satire
     Subject(s): American culture, society, politics, psychology, philosophy, profanity, everyday life, nihilism, religion, misanthropy, drug use, language, mass media, popular culture, current events, death, masculinity, family, parenting, race relations, old age
     Spouse: Brenda Hosbrook ​​(m. 1961; died 1997)​, Sally Wade ​​(m. 1998)​
 
     Children: Kelly Carlin
     Relative(s):	Patrick Carlin Jr. (brother)
-    Websites:	georgecarlin.com, georgecarlintribute.com `,
+    Websites:	georgecarlin.com, georgecarlintribute.com`,
   },
   QUOTES: [
     {
