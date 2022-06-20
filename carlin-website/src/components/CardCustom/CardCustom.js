@@ -26,7 +26,7 @@ import { CONSTANTS } from "../../constants";
 SwiperCore.use([Navigation, EffectCoverflow, Pagination, Scrollbar, Autoplay]);
 const useStyles = makeStyles({
   media: {
-    height: "2vh",
+    height: 0,
     paddingTop: "100%",
   },
   swiperContainer: {
