@@ -37,7 +37,7 @@ function App() {
           <Grid container spacing={12} justifyContent="center">
             <Grid item xs={2}>
               <ToggleTheme
-                toggleDark={toggleDark}
+                isDarkTheme={toggleDark}
                 settoggleDark={settoggleDark}
               />
             </Grid>
