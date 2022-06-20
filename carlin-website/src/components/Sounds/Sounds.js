@@ -23,7 +23,7 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function Sounds() {
   return (
     <ThemeProvider theme={darkTheme}>
-      <div className="soundsWrapper">
+      <div>
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2}>
             {CONSTANTS.SOUNDS.map((sound) => {

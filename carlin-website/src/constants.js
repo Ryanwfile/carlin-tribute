@@ -345,24 +345,6 @@ export const CONSTANTS = {
       src: carlin_cardinalGlick,
     },
   ],
-  // EXCERPTS_IMAGES: [
-  //   {
-  //     name: "Brain Droppings",
-  //     src: "https://images-na.ssl-images-amazon.com/images/I/51lXgxnM5ZL._SX365_BO1,204,203,200_.jpg",
-  //   },
-  //   {
-  //     name: "When Will Jesus Bring the Pork Chops?",
-  //     src: "https://images-na.ssl-images-amazon.com/images/I/5199NVE9YBL._SX359_BO1,204,203,200_.jpg",
-  //   },
-  //   {
-  //     name: "Last Word With Tony Hendra",
-  //     src: "https://images-na.ssl-images-amazon.com/images/I/51Ci9Naaz0L._SX322_BO1,204,203,200_.jpg",
-  //   },
-  //   {
-  //     name: "Napalm and Silly Putty",
-  //     src: "https://images-na.ssl-images-amazon.com/images/I/61vG7tuf7nL._SY497_BO1,204,203,200_.jpg",
-  //   },
-  // ],
   BRAIN_DROPPINGS: {
     image: {
       name: "Brain Droppings",
@@ -610,6 +592,10 @@ export const CONSTANTS = {
       name: "Chris Rock interviews George Carlin",
     },
     {
+      src: `aIkqNiBASfI`,
+      name: "Baseball versus Football",
+    },
+    {
       src: `s-clvDxl8qI`,
       name: "George Carlin Unmasked",
     },
@@ -641,10 +627,7 @@ export const CONSTANTS = {
       src: `vdPy5Ikn7dw`,
       name: "Airplane Announcements",
     },
-    {
-      src: `aIkqNiBASfI`,
-      name: "Baseball versus Football",
-    },
+
     {
       src: `byWx7aEUNxY`,
       name: "Muhammad Ali Vietnam",
