@@ -91,7 +91,10 @@ function Excerpts() {
             src={CONSTANTS.BRAIN_DROPPINGS.image.src}
             alt={CONSTANTS.BRAIN_DROPPINGS.image.name}
           />
-          {CONSTANTS.BRAIN_DROPPINGS.content}
+          <Typography variant="body2">
+            {" "}
+            {CONSTANTS.BRAIN_DROPPINGS.content}{" "}
+          </Typography>
         </TabPanel>
         <TabPanel value={value} index={1}>
           <img
