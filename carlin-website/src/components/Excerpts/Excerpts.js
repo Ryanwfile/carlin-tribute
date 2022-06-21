@@ -102,25 +102,25 @@ function Excerpts() {
           </Typography> */}
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <img
-            src={CONSTANTS.PORK_CHOPS.image.src}
-            alt={CONSTANTS.PORK_CHOPS.image.name}
-          />
-          {CONSTANTS.PORK_CHOPS.content}
+          <SingleExcerpt
+            image={CONSTANTS.PORK_CHOPS.image.src}
+            name={CONSTANTS.PORK_CHOPS.image.name}
+            content={CONSTANTS.PORK_CHOPS.content}
+          ></SingleExcerpt>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <img
-            src={CONSTANTS.LAST_WORDS.image.src}
-            alt={CONSTANTS.LAST_WORDS.image.name}
-          />
-          {CONSTANTS.LAST_WORDS.content}
+          <SingleExcerpt
+            image={CONSTANTS.LAST_WORDS.image.src}
+            name={CONSTANTS.LAST_WORDS.image.name}
+            content={CONSTANTS.LAST_WORDS.content}
+          ></SingleExcerpt>
         </TabPanel>
         <TabPanel value={value} index={3}>
-          <img
-            src={CONSTANTS.NAPALM.image.src}
-            alt={CONSTANTS.NAPALM.image.name}
-          />
-          {CONSTANTS.NAPALM.content}
+          <SingleExcerpt
+            image={CONSTANTS.NAPALM.image.src}
+            name={CONSTANTS.NAPALM.image.name}
+            content={CONSTANTS.NAPALM.content}
+          ></SingleExcerpt>
         </TabPanel>
       </div>
     </div>
