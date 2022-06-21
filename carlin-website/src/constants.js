@@ -434,21 +434,21 @@ export const CONSTANTS = {
     },
     content: ` THOU SHALT NOT COVET THY NEGHBOR’S GOODS
     This one is just plain stupid.  Coveting your neighbor’s goods is what keeps the economy going: Your neighbor gets a vibrator that plays “O Come All Ye Faithful,” you want to get one, too.  Coveting creates jobs.  
+
     Ninety-nine percent of all the truly horrifying shit going on in this world was initiated, established, perpetrated, enabled or continued by men.  And that includes the wave and the high five, two of history’s truly low points. 
+    
     (Referring to men in general)His manliness also requires that he refuse to go to a doctor or a hospital unless it can be demonstrated to him that he has, in fact, been clinically dead for six months.  “No sense going’ to the hospital, honey, I don’t seem to be in a coma.”  Therefore, he must learn to ignore pain.  “It doesn’t really hurt.  Bleeding from six holes in the head doesn’t really hurt.  Just gimme the remote and get me a beer.” 
+
     (Referring to the FBI 10 Most Wanted)One last question: Does the FBI search harder for number three than they do for number seven?  I would.  Otherwise why have the numbers at all?  These are the kinds of thoughts that keep me from making any real progress in life. 
-    Political correctness is America’s newest form of intolerance, and it is especially pernicious because it comes disguised as tolerance.  It presents itself as fairness, yet attempts to restrict and control people’s language with strict codes and rigid rules.  I’m not sure that’s the way to fight discrimination.  I’m not sure silencing people or forcing them to alter their speech is the best method for solving problems that go much deeper than speech.  
-    The use of physically challenged is an obvious attempt to make people feel better, the idea being, “As long as we can’t cure these people, let’s give their condition a more positive name, and maybe it will distract everyone.”  It’s verbal sleight of hand.
-    These allegedly well-intentioned people have strayed so far from reality that it will not be a surprise for me to someday hear a rape victim referred to as an unwilling sperm recipient.
-    
-    
-    
+        
     How would you like to be told that about your child?  “He’s minimally exceptional.”  “Oh, thank God for that!  We thought he was just kind of, I don’t know, slow.  But minimally exceptional!  Wow!  Wait’ll I tell our friends.”
-    Political correctness cripples discourse, creates ugly language and is generally stupid.
+   
     “Is Bruno a sadist?”
     “Beats me.”
+
     Or they might say, “I’m leaving Armando.  He beat me up yesterday in the frozen-food section of the supermarket.  He struck me in the head repeatedly with a Stouffer’s Lean Cusine.  I believe it was the Chicken Cordon Bleu.  I’m moving on.”  Occasionally, I get impatient with these people.  When they tell me they’re moving on, I look at my watch and say, “Well, isn’t it about time you got started?  No sense standing around here, talking to me, when you could be out there… moving on.”  
     I don’t know, I guess it all works out, because when I run into the same person a few months later, they usually say, “I’m in a whole different place now.”  And I don’t think they’re referring to Pittsburgh.  
+
     Why not be a schmuck?  A licensed, practicing schmuck.  Or, if you qualify, a CPS, a certified public schmuck.  It may not seem like it when you look around, but there’s actually a shortage of schmucks in America.  As a result, there’s big money in schmucking.  The average schmuck earns $28,000 a year, plus benefits.  And there are openings for schmucks in every field:  The government is run by schmucks; big business is run by schmucks; and the retail field is crawling with schmucks.  And, more and more, people are becoming independent, freelance schmucks on their own.  Call the Schmuck Technical Institute today and get our free booklet,  Hey Putz, Be a Schmuck!  Most people only manage to be schmucks at parties, but here’s your chance to become a fulltime, year-round schmuck.  Give us a call.  Don’t be a schmuck, be a schmuck.
     
     Uncle Tonto had a tough life; intercourse with a pelican is not an easy thing to live down.  He drank excessively.  One time he was so hungover he had to consult a cottage cheese carton to determine the approximate date.  At parties, he was the designated drinker, his preference being crème de menthe, Sterno and goat droppings.  When stopped and tested by police, he usually set the Breathalyzer on fire.  Refusing to drive when he was sober, in the mornings he rode to work on an electric floor buffer, claiming the one drawback was the time he wasted traveling from side to side.  He was sentenced to ten years for defecating in a cathedral, but was released immediately when the warden felt Tonto was lowering the prison’s standards.  After his release, he hitchhiked through Pennsylvania where he was beaten to death by a buggyload of Quakers.  
@@ -486,6 +486,7 @@ export const CONSTANTS = {
     I don’t often write about my own experiences; it’s not my style.  But I had a recent incident in traffic that that I’d like to tell you about.  And before I being, there are a couple of things you ought to know about me: I drive kind of recklessly, I take a lot of chances, I never maintain my vehicles and I don’t believe in traffic laws.  And so, because of these practices, I tend to have what a picky person would probably refer to as a lot of traffic accidents.  
     And wouldn’t you know, last week I ran over a sheep.  
     Or, possibly, I ran over a small man wearing a sheepskin coat.  I’m not sure, really, because I didn’t stop.  That’s another rule of mine: I never stop when I have a traffic accident.  Do you?  No.  You can’t.  Who has time?  Not me.
+
     If I hit something, or I run somebody over, I keep moving!  Especially if I’ve injured someone.  I refuse to involve myself in other people’s injuries.  I’m not a doctor, I’ve had no medical training; I’m just another guy, out, driving around looking ofr a little fun.  And I can’t be stopping for everything.  
     Listen, folks.  Let’s be logical about it.  If you stop at the scene of the accident, all you do is add to the confusion.  These people you ran over have enough troubles of their own without you stopping and making things worse.  Think about it – they’ve just been involved in a major traffic accident!  The last thing they need is for you to stop, get out of your car, go over to the wreckage and start bothering them with stupid questions:  “Are you hurt?”
     Well, of course they’re hurt.  Look at all the blood!  You just hit them with a ton and a half of steel- of course they’re hurt.  Leave these people alone.  Haven’t you done enough?  For once in your life do the decent thing- don’t get involved...
@@ -576,6 +577,7 @@ export const CONSTANTS = {
       src: "https://images-na.ssl-images-amazon.com/images/I/61vG7tuf7nL._SY497_BO1,204,203,200_.jpg",
     },
     content: `A Florida man who wrestles alligators for a living was eaten alive today when the alligator apparently did not understand the universal signal for “time-out.”
+    
     You know what’s fun?  Go to a German restaurant and insist on using chopsticks. `,
   },
   VIDEOS: [
