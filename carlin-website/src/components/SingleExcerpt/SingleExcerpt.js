@@ -7,10 +7,13 @@ const useStyles = makeStyles({
     width: 90 * 3,
     height: 160 * 3,
   },
+  text: {
+    fontSize: "125%",
+  },
 });
 
 export default function SingleExcerpt(props) {
-  const { media } = useStyles();
+  const { media, text } = useStyles();
   return (
     <Paper elevation={3}>
       <Card>
@@ -19,7 +22,9 @@ export default function SingleExcerpt(props) {
           <img src={props.image} alt={props.name} className={media} />
         </CardMedia>
         <CardContent>
-          <Typography variant="body2">{props.content}</Typography>
+          <Typography variant="body2" className={text}>
+            {props.content}
+          </Typography>
         </CardContent>
       </Card>
     </Paper>
