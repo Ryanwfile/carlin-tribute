@@ -13,18 +13,20 @@ import Media from "./components/Media/Media";
 import "./App.module.css";
 import CarouselCustom from "./components/CarouselCustom/CarouselCustom";
 import { Typography } from "@mui/material";
+// import { makeStyles } from "@material-ui/core/styles";
+// import { lineHeight } from "@mui/system";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
   ...theme.typography.body2,
-  padding: theme.spacing(0),
+  // padding: theme.spacing(0),
   textAlign: "center",
   color: theme.palette.text.mode === "dark" ? "#1A2027" : "#fff",
 }));
 
 function App() {
   const [toggleDark, settoggleDark] = useState(false);
-  const myTheme = createMuiTheme({
+  const customTheme = createMuiTheme({
     palette: {
       type: toggleDark ? "dark" : "light",
     },
@@ -34,11 +36,11 @@ function App() {
   });
 
   return (
-    <ThemeProvider theme={myTheme}>
+    <ThemeProvider theme={customTheme}>
       <Router>
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={1} justifyContent="center">
-            <Grid item xs={2}>
+            <Grid item xs={2} alignSelf="center">
               <ToggleTheme
                 isDarkTheme={toggleDark}
                 settoggleDark={settoggleDark}
@@ -46,10 +48,10 @@ function App() {
             </Grid>
             <Grid item xs={2} alignSelf="center">
               <Item>
-                <Typography variant="h5">George Carlin Tribute</Typography>
+                <Typography variant="h4">George Carlin Tribute</Typography>
               </Item>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={4} alignSelf="center" alignItems="center">
               <Item>
                 <header>
                   <nav>
