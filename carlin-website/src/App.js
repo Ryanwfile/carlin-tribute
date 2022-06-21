@@ -32,6 +32,9 @@ function App() {
     },
     typography: {
       fontFamily: ["Frank Ruhl Libre", "Montserrat", "sans-serif"].join(","),
+      h5: {
+        lineHeight: 2.1,
+      },
     },
   });
 
@@ -48,7 +51,7 @@ function App() {
             </Grid>
             <Grid item xs={2} alignSelf="center">
               <Item>
-                <Typography variant="h4">George Carlin Tribute</Typography>
+                <Typography variant="h5">George Carlin Tribute</Typography>
               </Item>
             </Grid>
             <Grid item xs={4} alignSelf="center" alignItems="center">

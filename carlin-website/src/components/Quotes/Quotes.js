@@ -24,12 +24,13 @@ const useStyles = makeStyles({
   media: {
     height: 0,
     paddingTop: 0,
-    textAlign: "center",
-    fontFamily: "Courier Prime",
+    // textAlign: "center",
+    // fontFamily: "Courier Prime",
   },
   swiperContainer: {
     paddingTop: 0,
     paddingBottom: "3rem",
+    alignSelf: "center",
   },
 });
 function Quotes(props) {
@@ -42,6 +43,7 @@ function Quotes(props) {
         slidesPerView={1}
         speed={5000}
         centeredSlides
+        textAlign="center"
         className={swiperContainer}
         keyboard={{ enabled: true }}
         // pagination={{ clickable: true }}
