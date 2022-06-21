@@ -8,6 +8,7 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import { CONSTANTS } from "../../constants";
+import SingleExcerpt from "../SingleExcerpt/SingleExcerpt";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -86,19 +87,19 @@ function Excerpts() {
       </AppBar>
       <div>
         <TabPanel value={value} index={0}>
-          {/* <Card>
-            <CardMedia
-              className={classes.media}
-              image={CONSTANTS.BRAIN_DROPPINGS.image.src}
-            ></CardMedia>
-          </Card> */}
-          <img
+          <SingleExcerpt
+            image={CONSTANTS.BRAIN_DROPPINGS.image.src}
+            name={CONSTANTS.BRAIN_DROPPINGS.image.name}
+            content={CONSTANTS.BRAIN_DROPPINGS.content}
+          ></SingleExcerpt>
+
+          {/* <img
             src={CONSTANTS.BRAIN_DROPPINGS.image.src}
             alt={CONSTANTS.BRAIN_DROPPINGS.image.name}
           />
           <Typography variant="body2">
             {CONSTANTS.BRAIN_DROPPINGS.content}
-          </Typography>
+          </Typography> */}
         </TabPanel>
         <TabPanel value={value} index={1}>
           <img
