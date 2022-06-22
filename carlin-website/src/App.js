@@ -31,12 +31,17 @@ function App() {
       type: toggleDark ? "dark" : "light",
     },
     typography: {
-      fontFamily: ["Montserrat", "Frank Ruhl Libre", "sans-serif"].join(","),
+      fontFamily: [
+        "Courier Prime",
+        "Montserrat",
+        "Frank Ruhls Libre",
+        "sans-serif",
+      ].join(","),
       h5: {
-        lineHeight: 2.1,
+        fontSize: "180%",
       },
       h4: {
-        fontFamily: "Courier Prime",
+        // fontFamily: "Courier Prime",
         // color: "yellow",
       },
     },

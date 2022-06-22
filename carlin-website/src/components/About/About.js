@@ -18,6 +18,8 @@ const Item = styled(Paper)(({ theme }) => ({
   // padding: theme.spacing(1),
   textAlign: "center",
   color: theme.palette.text.secondary,
+  // marginLeft: "4rem",
+  // marginRight: "4rem",
 }));
 
 function About() {
@@ -25,7 +27,7 @@ function About() {
     <div className={styles.aboutWrapper}>
       <Item>
         <Typography variant="h5">{CONSTANTS.ABOUT.title} </Typography>
-        <Typography variant="body1">{CONSTANTS.ABOUT.content}</Typography>
+        <Typography variant="body2">{CONSTANTS.ABOUT.content}</Typography>
       </Item>
     </div>
   );
