@@ -44,7 +44,11 @@ export default function ToggleTheme({ isDarkTheme, settoggleDark }) {
           // onClick={colorMode.toggleColorMode}
           color="inherit"
         >
-          {isDarkTheme ? <Brightness7Icon /> : <Brightness4Icon />}
+          {isDarkTheme ? (
+            <Brightness7Icon onClick={handleModeChange} />
+          ) : (
+            <Brightness4Icon onClick={handleModeChange} />
+          )}
         </IconButton>
         <Switch
           checked={isDarkTheme}
