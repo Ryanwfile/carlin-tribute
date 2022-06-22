@@ -72,6 +72,21 @@ export const CONSTANTS = {
     },
     {
       quote:
+        "I had no shoes, and I felt sorry for myself until I met a man with no feet.  I took his shoes.  Now I feel better.",
+    },
+    {
+      quote:
+        "When someone is impatient and says, I haven't got all day, I always wonder, How can that be? How can you not have all day?",
+    },
+    {
+      quote:
+        "Shouldn’t a complimentary beverage tell you what a fine person you are?",
+    },
+    {
+      quote: "If the bouncer gets drunk, who throws him out?",
+    },
+    {
+      quote:
         'Best seller really only means "good seller." There can only be one best seller. All the rest are good sellers. Each succeeding book on the list is a "better seller."',
     },
     {
@@ -80,7 +95,6 @@ export const CONSTANTS = {
     {
       quote: "Is it illegal to charge admission to a free-for-all?",
     },
-
     {
       quote:
         "As a matter of principle I never attend the first annual anything.",
@@ -106,7 +120,6 @@ export const CONSTANTS = {
       quote:
         "I've never owned a telescope, but it's something I'm thinking of looking into.",
     },
-
     {
       quote:
         "TRUE FACT A radio commercial says that a certain diet pill works three times faster than starvation.  Question: Are they guessing, or did they really run these tests?",
@@ -166,21 +179,7 @@ export const CONSTANTS = {
       quote:
         "I don't have to tell you it goes without saying there are some things better left unsaid. I think that speaks for itself. The less said about it the better.",
     },
-    {
-      quote:
-        "I had no shoes, and I felt sorry for myself until I met a man with no feet.  I took his shoes.  Now I feel better.",
-    },
-    {
-      quote:
-        "When someone is impatient and says, I haven't got all day, I always wonder, How can that be? How can you not have all day?",
-    },
-    {
-      quote:
-        "Shouldn’t a complimentary beverage tell you what a fine person you are?",
-    },
-    {
-      quote: "If the bouncer gets drunk, who throws him out?",
-    },
+
     {
       quote:
         "Whenever I see a large crowd I always think of all the dry cleaning they have out.",
