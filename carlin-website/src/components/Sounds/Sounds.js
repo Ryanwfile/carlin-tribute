@@ -34,7 +34,7 @@ export default function Sounds() {
                     <audio
                       controls
                       src={sound.src}
-                      style={{ width: "60%" }}
+                      style={{ width: "80%" }}
                     ></audio>
                   </Item>
                 </Grid>

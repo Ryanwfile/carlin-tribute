@@ -2,7 +2,7 @@ import React from "react";
 // import PropTypes from "prop-types";
 // import { Card, CardMedia } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
+// import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
@@ -30,13 +30,13 @@ function TabPanel(props) {
   );
 }
 
-function allProps(index) {
-  return {
-    id: `simple-tab-${index}`,
-    "aria-controls": `simple-tabpanel-${index}`,
-    centered: true,
-  };
-}
+// function allProps(index) {
+//   return {
+//     id: `simple-tab-${index}`,
+//     "aria-controls": `simple-tabpanel-${index}`,
+//     centered: true,
+//   };
+// }
 
 // const rgb = (r, g, b) =>
 //   `rgb(${Math.floor(r)},${Math.floor(g)},${Math.floor(b)})`;
@@ -50,41 +50,71 @@ const useStyles = makeStyles((theme) => ({
     height: 0,
     paddingTop: "100%",
   },
+  tabs: {
+    "& .MuiTabs-indicator": {
+      // color: "black",
+      backgroundColor: "black",
+    },
+  },
 }));
 
-function Excerpts() {
+function Excerpts(props) {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-
+  const textColor = props.isDarkTheme ? "white" : "black";
   return (
     <div
       style={{
         whiteSpace: "pre-line",
+        // color: "red",
       }}
     >
-      <AppBar position="relative" className={classes.root}>
-        <div>
-          <Tabs
-            centered={true}
-            value={value}
-            onChange={handleChange}
-            aria-label="aria label for tab"
-            textColor="primary"
-          >
-            <Tab label="Brain Droppings" {...allProps(0)} />
-            <Tab
-              label="When Will Jesus Bring the Pork Chops"
-              {...allProps(1)}
-            />
-            <Tab label="Last Words With Tony Hendra" {...allProps(2)} />
-            <Tab label="Napalm and Silly Putty" {...allProps(3)} />
-          </Tabs>
-        </div>
-      </AppBar>
+      {/* <AppBar position="relative" className={classes.root}> */}
+      <div>
+        <Tabs
+          centered={true}
+          value={value}
+          onChange={handleChange}
+          aria-label="aria label for tab"
+          textColor={textColor}
+          className={classes.tabs}
+          // fontWeight="900"
+        >
+          <Tab
+            label="Brain Droppings"
+            // {...allProps(0)}
+            style={{
+              fontWeight: 900,
+            }}
+          />
+          <Tab
+            label="When Will Jesus Bring the Pork Chops"
+            style={{
+              fontWeight: 900,
+            }}
+            // {...allProps(1)}
+          />
+          <Tab
+            label="Last Words With Tony Hendra"
+            // {...allProps(2)}
+            style={{
+              fontWeight: 900,
+            }}
+          />
+          <Tab
+            label="Napalm and Silly Putty"
+            // {...allProps(3)}
+            style={{
+              fontWeight: 900,
+            }}
+          />
+        </Tabs>
+      </div>
+      {/* </AppBar> */}
       <div>
         <TabPanel value={value} index={0}>
           <SingleExcerpt

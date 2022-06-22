@@ -15,7 +15,7 @@ import "swiper/swiper.min.css";
 // modules styles
 import "swiper/components/navigation/navigation.min.css";
 import "swiper/components/pagination/pagination.min.css";
-
+// import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import { CONSTANTS } from "../../constants";
 // import { styled } from "@mui/material/styles";
 // import { ThemeProvider, createTheme } from "@mui/material/styles";
@@ -24,18 +24,41 @@ const useStyles = makeStyles({
   media: {
     height: 0,
     paddingTop: 0,
+    verticalAlign: "middle",
     // textAlign: "center",
     // fontFamily: "Courier Prime",
   },
   swiperContainer: {
     paddingTop: 0,
     paddingBottom: "3rem",
-    alignSelf: "center",
   },
+  // cardWrapper: {
+  //   // color: "red",
+  //   // fontFamily: "Courier Prime",
+  //   display: "flex",
+  //   alignContent: "center",
+  //   alignItems: "center",
+  //   alignSelf: "center",
+  //   justifySelf: "center",
+  //   justifyContent: "center",
+  //   justifyItems: "center",
+  // },
 });
 function Quotes(props) {
   const { media, swiperContainer } = useStyles();
+  // const quoteTheme = createMuiTheme({
+  //   typography: {
+  //     fontFamily: ["Stoke", "monospace"].join(","),
+  //     fontSize: "250%",
+  //     fontWeightBold: 900,
+  //     h4: {
+  //       lineHeight: 5.1,
+  //     },
+  //   },
+  // });
+
   return (
+    // <ThemeProvider theme={quoteTheme}>
     <Card>
       <Swiper
         // modules={[Navigation, Pagination]}
@@ -60,7 +83,11 @@ function Quotes(props) {
                 <Typography
                   variant="h4"
                   style={{
-                    fontFamily: "Courier M",
+                    // display: "flex",
+                    fontFamily: "Courier Prime",
+                    fontWeight: "450",
+                    // alignSelf: "center",
+                    // justifySelf: "center",
                   }}
                 >
                   {quote.quote}
@@ -71,6 +98,7 @@ function Quotes(props) {
         })}
       </Swiper>
     </Card>
+    // </ThemeProvider>
   );
 }
 // const Item = styled(Paper)(({ theme }) => ({
