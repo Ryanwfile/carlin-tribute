@@ -24,24 +24,36 @@ const useStyles = makeStyles({
   media: {
     height: 0,
     paddingTop: 0,
-    verticalAlign: "middle",
-    // textAlign: "center",
-    // fontFamily: "Courier Prime",
+
+    // verticalAlign: "middle",
+    display: "flex",
+    position: "relative",
+    // top: "10px",
+    fontSize: "75%",
+    // alignContent: "center",
+    lineHeight: "1",
   },
   swiperContainer: {
     paddingTop: 0,
     paddingBottom: "3rem",
+    // display: "flex",
+    // alignContent: "center",
+    // alignItems: "center",
+    // alignSelf: "center",
+    // justifySelf: "center",
+    // justifyContent: "center",
+    // justifyItems: "center",
   },
   // cardWrapper: {
   //   // color: "red",
   //   // fontFamily: "Courier Prime",
-  //   display: "flex",
-  //   alignContent: "center",
-  //   alignItems: "center",
-  //   alignSelf: "center",
-  //   justifySelf: "center",
-  //   justifyContent: "center",
-  //   justifyItems: "center",
+  // display: "flex",
+  // alignContent: "center",
+  // alignItems: "center",
+  // alignSelf: "center",
+  // justifySelf: "center",
+  // justifyContent: "center",
+  // justifyItems: "center",
   // },
 });
 function Quotes(props) {
@@ -59,45 +71,57 @@ function Quotes(props) {
 
   return (
     // <ThemeProvider theme={quoteTheme}>
-    <Card>
-      <Swiper
-        // modules={[Navigation, Pagination]}
-        spaceBetween={50}
-        slidesPerView={1}
-        speed={5000}
-        centeredSlides
-        textAlign="center"
-        className={swiperContainer}
-        keyboard={{ enabled: true }}
-        // pagination={{ clickable: true }}
-        // scrollbar={{ draggable: true }}
-        loop
-        autoplay={true}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
-      >
-        {CONSTANTS.QUOTES.map((quote, index) => {
-          return (
-            <SwiperSlide className={swiperContainer}>
-              <CardContent className={media} key={index}>
-                <Typography
-                  variant="h4"
-                  style={{
-                    // display: "flex",
-                    fontFamily: "Courier Prime",
-                    fontWeight: "450",
-                    // alignSelf: "center",
-                    // justifySelf: "center",
-                  }}
-                >
-                  {quote.quote}
-                </Typography>
-              </CardContent>
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
-    </Card>
+    <span
+      style={{
+        display: "flex",
+        alignItems: "center",
+        alignSelf: "center",
+        alignContent: "center",
+        justifyContent: "center",
+        justifySelf: "center",
+        justifyItems: "center",
+      }}
+    >
+      <Card>
+        <Swiper
+          // modules={[Navigation, Pagination]}
+          spaceBetween={50}
+          slidesPerView={1}
+          speed={5000}
+          centeredSlides
+          textAlign="center"
+          className={swiperContainer}
+          keyboard={{ enabled: true }}
+          // pagination={{ clickable: true }}
+          // scrollbar={{ draggable: true }}
+          loop
+          autoplay={true}
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={(swiper) => console.log(swiper)}
+        >
+          {CONSTANTS.QUOTES.map((quote, index) => {
+            return (
+              <SwiperSlide className={swiperContainer}>
+                <CardContent className={media} key={index}>
+                  <Typography
+                    variant="h4"
+                    style={{
+                      // display: "flex",
+                      fontFamily: "Courier Prime",
+                      fontWeight: "450",
+                      // alignSelf: "center",
+                      // justifySelf: "center",
+                    }}
+                  >
+                    {quote.quote}
+                  </Typography>
+                </CardContent>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </Card>
+    </span>
     // </ThemeProvider>
   );
 }
