@@ -373,48 +373,72 @@ export const CONSTANTS = {
     If JFK Jr. got into a taxi in New York to go to the airport, do you think he would say, "Take me to JFK?" How would he feel about that?  And how does Lee Harvey Oswald's mother feel when she walks through JFK, knowing that if she had stayed single it would probably be Martin Luther King Jr. Airport?Sometimes the same words mean opposite things.  Sometimes the opposite is true.  Shock absorbers are called shocks.  Slow down and slow up are interchangeable.  Bad taste is tasteless.  Sports fans say "turf" when they mean artificial turf.  Something invaluable is very valuable.  I'll bet you could care less.  Or maybe you couldn't care less.  Same difference.  By the way, is it "from here on in" or "from here on out"? 
     
     I thought it would be nice to get a job at a duty-free shop, but it doesn't sound like there's a whole lot to do in a place like that. 
+
     Weyerhauser, a company that makes its money by cutting down trees, calls itself “The tree-growing company.”
+
     Not only do I not know what’s going on, I wouldn’t know what to do about it if I did.
+
     They said some guy arrested for murder in Las Vegas had “a history of questionable actions.”  Can you imagine if we were all held to that standard?
+
     A lot of these people who keep a gun at home for safety are the same ones who refuse to wear a seat belt.
+
     I wanted to get a job as a gynecologist, but I couldn’t find an opening. 
+
     Why don’t they have dessert at breakfast?  
+
     You rarely meet a wino with perfect pitch. 
+
     There’s a moment coming.  It’s not here yet.  It’s still on the way.  It’s in the future.  It hasn’t arrived.  Here it comes.  Here it is…shit! It’s gone. 
+
     Even instant replay is a form of token nostalgia: a brief visit to the immediate past for reexamination, before slapping it onto a highlight video for further review and re-review on into the indefinite future. 
+
     Momentarily means for a moment, not  in  a moment.  The word for “in a moment” is presently.  “I will be there presently, Dad, and then, after pausing momentarily, I will kick you in the nuts.” 
+
     I have a suggestion that I think would help fight serious crime.  Signs.  There are lots of signs for minor infractions: No Smoking, Stay Off the Grass, Keep Out, and they seem to work fairly well.  I think we should also have signs for major crimes: Murder Strictly Prohibited, No Raping People, Thank You for Not Kidnapping Anyone.  It’s certainly worth a try.  I’m convinced Watergate would never have happened if there had just been a sign in the Oval Office that said, Malfeasance of Office Is Strictly Against the Law, or Thank You for Not Undermining the Constitution.  
     Here’s a sign I don’t like: Authorized Personnel Only.  Now, if there’s one thing I know about myself, it’s that I am definitely not authorized.  I wouldn’t even know where to go to  get authorized.  Can you do it by mail?  Wouldn’t baptism sort of authorize you?  It doesn’t matter; I go through the door anyway.  If I get stopped, I say, “Well, I may not be authorized for this, but I am authorized for other things.  And your sign doesn’t mention which things.” 
-    I’ve got a terrific sign in front of my house that keeps intruders out:  Retarded Pit Bull High on Angel Dust.  No one’s come over the wall yet.  Except a couple of retarded guys who were high on angel dust.  
+    
     This is for health food fiends, the natural-fabrics gang, and all those green-head environmental hustlers who stomp around in the “natural”: Your key word is meaningless.  Everything is natural.  Everything in the universe is a part of nature.  Polyester, pesticides, oil slicks, and whoopee cushions.  Nature is not just trees and flowers.  It’s everything.  Human beings are part of nature.  And if a human being invents something, that’s part of nature, too.  Like the whoopee cushion.  
+    
     Sometimes on television they tell you a product is “good for headaches.”  I don’t want something that’s good for headaches.  I want something that’s bad for headaches.  And good for me.  
     
-    Why do we say OUT LIKE A LIGHT?  The primary function of a light is to be lit, not to be out.  Why choose a light to represent the concept of being out?  Why not, “On like a light?”The same is true of DROPPING LIKE FLIES;  the wrong quality is being emphasized.  Flies are known for flying, no dropping.  And let’s forget METEORIC RISE.  Meteors don’t rise, they fall.  
+    Why do we say OUT LIKE A LIGHT?  The primary function of a light is to be lit, not to be out.  Why choose a light to represent the concept of being out?  Why not, “On like a light?”The same is true of DROPPING LIKE FLIES;  the wrong quality is being emphasized.  Flies are known for flying, not dropping.  And let’s forget METEORIC RISE.  Meteors don’t rise, they fall.  
+    
     When they say someone is NOT GOING TO WIN ANY POPULARITY CONTESTS, what popularity contests are they talking about?  I’ve never heard of these contests.  Where do they have them?  And who wins?  Whoever is winning these popularity contests can’t be that popular.  You never hear about them.
+    
     YOU COULD HEAR A PIN DROP.  Well, you can’t hear a pin drop.  Not even a bowling pin.  When a pin is dropping, it’s just floating through the air.  There’s very little noise.  You might be able to hear a pin land but certainly not drop.  
-    And I think it’s time to start slapping around these people who can’t tell a simple story without repeatedly saying, “Ya know what I’m sayin’?”  Here I am, trying to listen to the guy, and he’s a person who is constantly checking on how he’s doing.  
+        
     I don’t like euphemisms.  Euphemisms are a form of lying.  Fat people are not gravitationally disadvantaged.  They’re fat.  I prefer seeing things the way they are, not the way some people wish they were.
+    
     Labels divide people.  We need fewer labels, not more.
+    
     The real news is that there are millions upon millions of sick babies and cripples and addicts and criminals and misfits and diseased and mentally ill and hungry people who need help.  Not to mention all the middle-class normal who swear things are just fine but spend three hours a day commuting, and whose dull, meaningless lives are being stolen from them by soulless corporations.  But the media don’t bother with all that.  They like to simply cover their designated Victims of the Week, so they can see themselves as somehow noble.  They highlight certain cases, making them appear exceptional.  And when they do, they admit they are simply unable and unwilling to report the totality of the Great American Social Nightmare.
+    
     I only respect horoscopes that are specific:  “Today, Neil Perleman, wearing tight-fitting wool knickers, will kill you on the crosstown bus.”
     
     Alter and change are supposed to be synonyms, but altering your trousers and changing your trousers are quite different things. 
     
     I put a dollar in one of those change machines.  Nothing changed. 
+    
     It’s hard for me to believe that the small amount of water I take from the water cooler can produce such a large bubble. 
     
     When primitive people practice the rain dance, does it rain at the end of practice?  And if it doesn’t how do they know they did the dance correctly? 
+
     They keep saying you can’t compare apples and oranges.  I can.  An apple is red and distinctly non-spherical; an orange is orange and nearly spherical.  So, what’s the big problem? 
+
     George Washington’s brother was the Uncle of Our Country. 
     
     The New Testament is not new anymore; it’s thousands of years old.  It’s time to start calling it The Less Old Testament.  
+
     “It’s neither here nor there.”  Well, folks, it’s gotta be somewhere.  I certainly don’t have it. 
+    
     Isn’t it interesting that only sex and excretion can be found legally obscene in this country?  Not violence, not neglect, not abuse of humans… two of nature’s most necessary functions and irresistible forces.  We’re always trying to control and thwart nature, even in our language.  
     
     Religion was always an easy class.  All you had to do was suspend the logic and reasoning you were being taught in all the other classes. 
+    
     And it’s always struck me that our two most-used gasses produce only tears and laughter.  How about a gas that creates crippling self-doubt?  Or a gas that conjures up terrifying childhood memories?  Okay, last one:  How about a gas that fills you with a unquenchable desire for vanilla pudding?
+    
     I’m also uneasy about the sheer number of scientific experiments performed on animals.  First of all, animals are not always good models for medical experimentation: penicillin kills guinea pigs; an owl is not bothered by cyanide; monkeys can survive strychnine, etc., etc.  Couldn’t these scientific tests just as easily be performed on humans?  Condemned prisoners, old people, the feeble, the terminally ill?  I’m sure there are plenty of ignorant, desperate Americans who would be willing to volunteer in exchange for some small electrical appliance.
-    Limericks
+    
     There was a young man from St. Maarten
     Who saved all his odors from faartin.
     If it passed through his crack
@@ -426,13 +450,12 @@ export const CONSTANTS = {
     Wrote a well-received play
     With a part in which Barton could fart in.`,
   },
-
   PORK_CHOPS: {
     image: {
       name: "When Will Jesus Bring the Pork Chops?",
       src: "https://images-na.ssl-images-amazon.com/images/I/5199NVE9YBL._SX359_BO1,204,203,200_.jpg",
     },
-    content: ` THOU SHALT NOT COVET THY NEGHBOR’S GOODS
+    content: ` (Referring to the 10 commandments) THOU SHALT NOT COVET THY NEGHBOR’S GOODS
     This one is just plain stupid.  Coveting your neighbor’s goods is what keeps the economy going: Your neighbor gets a vibrator that plays “O Come All Ye Faithful,” you want to get one, too.  Coveting creates jobs.  
 
     Ninety-nine percent of all the truly horrifying shit going on in this world was initiated, established, perpetrated, enabled or continued by men.  And that includes the wave and the high five, two of history’s truly low points. 
@@ -452,6 +475,7 @@ export const CONSTANTS = {
     Why not be a schmuck?  A licensed, practicing schmuck.  Or, if you qualify, a CPS, a certified public schmuck.  It may not seem like it when you look around, but there’s actually a shortage of schmucks in America.  As a result, there’s big money in schmucking.  The average schmuck earns $28,000 a year, plus benefits.  And there are openings for schmucks in every field:  The government is run by schmucks; big business is run by schmucks; and the retail field is crawling with schmucks.  And, more and more, people are becoming independent, freelance schmucks on their own.  Call the Schmuck Technical Institute today and get our free booklet,  Hey Putz, Be a Schmuck!  Most people only manage to be schmucks at parties, but here’s your chance to become a fulltime, year-round schmuck.  Give us a call.  Don’t be a schmuck, be a schmuck.
     
     Uncle Tonto had a tough life; intercourse with a pelican is not an easy thing to live down.  He drank excessively.  One time he was so hungover he had to consult a cottage cheese carton to determine the approximate date.  At parties, he was the designated drinker, his preference being crème de menthe, Sterno and goat droppings.  When stopped and tested by police, he usually set the Breathalyzer on fire.  Refusing to drive when he was sober, in the mornings he rode to work on an electric floor buffer, claiming the one drawback was the time he wasted traveling from side to side.  He was sentenced to ten years for defecating in a cathedral, but was released immediately when the warden felt Tonto was lowering the prison’s standards.  After his release, he hitchhiked through Pennsylvania where he was beaten to death by a buggyload of Quakers.  
+    
     The same is true of the word  cuisine.  The difference between food and cuisine is sixty dollars.  That’s it.  They’re stealing from you.  You want to know some real gourmet food?  Toasted snail penises; candied filet of panda asshole; deep-dish duck dick.
           
     KEVIN: Boy, a lot has changed in twenty years.
@@ -502,15 +526,16 @@ export const CONSTANTS = {
     },
     content: `Sliding headfirst down a vagina with no clothes on and landing in the freshly shaven crotch of a screaming woman did not seem to be part of God's plan for me.  At least not at first.  I'm not one of those people who can boast of having been a sparkle in his mother's eye.  A cinder comes closer." "Popular ethnic slurs to the contrary, the Irish do enjoy sex-at least the last ten seconds or so.  But we must admit that Irish foreplay consists of little more than 'You awake?' Or the more caring, sensitive 'Brace yourself, Agnes!' 
 
-    Best of all there was a station sign-off he (his father) said he'd like to deliver; and this was at the height of World War 2 and its patriotic fervor:  "I pledge allegiance to the people of the United States of America and all the poltical crap for which they stand.  Big dough shall be divisible with union dues for all."  As conclusive evidence it's scanty, but suggests to me that my father saw through the bullshit that is the glue of America.  That makes me proud.  If he transmitted it to me genetically, it was the greatest gift he could have given.
+   Best of all there was a station sign-off he (his father) said he'd like to deliver; and this was at the height of World War 2 and its patriotic fervor:  "I pledge allegiance to the people of the United States of America and all the poltical crap for which they stand.  Big dough shall be divisible with union dues for all."  As conclusive evidence it's scanty, but suggests to me that my father saw through the bullshit that is the glue of America.  That makes me proud.  If he transmitted it to me genetically, it was the greatest gift he could have given.
    She (his mother) sat me down on a little stepladder that doubled as a chair-I still have it- and handed me a death notice from that day's New York Journal-American.  I didn't need to read beyond his name (his father); I knew what death notices looked like.  I don't recall any emotion.  I just knew my brother would be happy and my mother relieved.
    
    And he(his father) got his wish, though there are very few people alive to whom it matters.  Not only did I outlive the gossip-by which I'm sure he meant my mother's quite public and vocal negative opinion of him-but I lived to write this book which will serve as testimony to my old man's great heart and soul.
    
    My mother's capacity for good living had long been blunted by the realities of salaried employment, but she retained her clasc pretensions and tried to realize some of them by using us kids as advertisement for her taste.  Pat, when he was young, had always been dressed like a little sissy in Eton collars and short pants, explaining in part why his fighting skills developed so rapidly.  I escaped the worst of that because she couldn't affort it, but she still took me to have my hair cut at Best & Co. on Fifth Avenue, because she knew that was where "the better people" had their kids' hair cut.  The better people went to Best.
    
-   And yet she was my mother, so she's deep in my art, both for what she gave me-especially that love of words- and for what I rebelled against in her.  And she made me laugh, she had a way with a punch line.  Once she told Pat and me about coming home on the bus that day.  A big fat German man plonked down beside her.  "A big Hun sat next to me,"  she said, "a big mess!  He was taking up far too much room.  So I took out my hatpin and showed it to him and said:'Condense yourself!'"
-     I'll never forget the moment when I made my mother laugh for the first time.  That I actually took an idea and twisted it and she laughed.  And it was real-not just cute-kid stuff.  I provoked a laugh in her by means of something I thought of.  How magic that was, the power it gave me.
+   And yet she was my mother, so she's deep in my art, both for what she gave me-especially that love of words- and for what I rebelled against in her. And she made me laugh, she had a way with a punch line.  Once she told Pat and me about coming home on the bus that day.  A big fat German man plonked down beside her.  "A big Hun sat next to me,"  she said, "a big mess!  He was taking up far too much room.  So I took out my hatpin and showed it to him and said:'Condense yourself!'"
+
+   I'll never forget the moment when I made my mother laugh for the first time.  That I actually took an idea and twisted it and she laughed.  And it was real-not just cute-kid stuff.  I provoked a laugh in her by means of something I thought of.  How magic that was, the power it gave me.
    
    After much effort I learned "Frere Jacques" and one day played it for the class.  My first ever public appearance!  A real charge!  Having thirty people (okay, six-year-olds, but they had pulses) sit without fidgeting and watch something you were doing- which they couldn't do- was intensely satisfying.  Having them applaud at the end, even though many had dfficulty bringing their hands together with any accuracy, produced an odd sense of power.  It was an intoxicant.  As would be the case with many intoxicants, I immediately wanted more.
    
@@ -522,7 +547,7 @@ export const CONSTANTS = {
    
    Later still, throughout the eighties, my Irish street guy was a powerful element in the evolution of what finally became in the early nineties my authentic voice.  He and his White Harlem relatives are the core of the family of characters that still live inside me.  
    
-   (After being falsely accused of armed robbery)It was clear that the cops had fucked up big-time, but they wouldn’t let us go.  …  The lead cop… later turned up as the guy in charge of investigating the Kennedy assassination, Will Fritz.  He interrogated Oswald after his arrest.  The obvious conclusion:  Oswald had as much to do with the assassination as the three of us did with the Motor Club robbery in Chicago. 
+   (After being falsely accused of armed robbery)It was clear that the cops had fucked up big-time, but they wouldn’t let us go. … The lead cop… later turned up as the guy in charge of investigating the Kennedy assassination, Will Fritz.  He interrogated Oswald after his arrest.  The obvious conclusion:  Oswald had as much to do with the assassination as the three of us did with the Motor Club robbery in Chicago. 
    
    Only a couple months and it was kicking in just how hard this shit was.  How few places there were where I felt secure.  How many times I had to repeat to myself after the died-a-death nights: “Remember that terrific set three Fridays ago?  Hang your hopes on that.  
    
@@ -532,13 +557,17 @@ export const CONSTANTS = {
    As Brenda’s mother was dying, our child was born.  A daughter.  We named her Kelly. 
    
    Like most people, I remember where I was when the (JFK's)assassination happened and what I was doing…  I went into Rexall’s or Liggett’s or some drugstore and called Brenda.  I said, “Turn on the television,” and I realized I was crying.  
+   
    Two years earlier, in 1961, Lenny Bruce had begun to be hit with a series of arrests for obscenity in San Francisco, Los Angeles (at three different clubs), Chicago and finally in New York
    By now it was becoming pretty clear that Lenny wasn’t being arrested for obscenity.  He was being arrested for being funny about religion and in particular Catholicism. 
+   
    That I knew intellectually there was an anal, uptight world out there I didn’t feel part of didn’t erase the fact that I was a living, breathing example of it. 
    That felt wonderfully subversive.  I’ve never been a full-blown radical.  I wasn’t cut out to man the barricades.  But any time the subversive part of me is satisfied, it delights me. 
-   In short:Acting.
-   And I was NOT ABLE to do that!  I was absolutely at sea, completely lost.  Whatever competence I might have had going in had vanished. 
+   
+   In short:Acting. And I was NOT ABLE to do that!  I was absolutely at sea, completely lost.  Whatever competence I might have had going in had vanished. 
+   
    It was traditional for comedians to try out a bit in clubs to see if it worked and then do it on Sullivan.  I tried out things on Sullivan and if they worked, I’d do them in clubs. 
+   
    We were together all the time, on the road or back in New York,  And just like before, Brenda was my manager and bookkeeper, collaborator and comforter. 
    She had to be mother and father to Kelly.  Then I’d come home with an armful of presents and it would be: “Daddy’s home! Fun time!”  Which cast her as the domestic tyrant, the one who said No.  Time for bed.  Time for school.  She hated being that.  So she got drunk. 
    
@@ -546,31 +575,48 @@ export const CONSTANTS = {
    And however much kinship I had with the counterculture, it brought up again the eternal dilemma: of longing to belong but not liking to belong-even though the group I wanted to belong to now were non-belongers. 
    
    Dropping acid was a profound turning point for me, a seminal experience. 
-   This is what devout-Catholic-Eisenhower-Republican Mary had to say to her wayward son about his latest developments;
+
+   This is what devout-Catholic-Eisenhower-Republican Mary(his mother) had to say to her wayward son about his latest developments;
    Dear George,
    I should be on the check-out line at the supermarket but I must say these words to you.  Please read these reviews.  You will someday be a Beckett or a Joyce or maybe a Bernard Shaw.  You seem to have their kind of disturbance… Some day you will release what you have down inside of you and it will be listened to and heard.  They condemn you for idolizing Lenny Bruce-how little they really know what you see in his courage, sincerity and daring.  Please George insist on being yourself.  Don’t let anyone change you or silence you.  I am so hungry for a heart-to-heart with you…Why have I got this restlessness-this groping for answers which I sometimes feel I have passed on to you?  Do you follow me George?  Why can’t I quiet this undisciplined questioning of what goes on around us?  Why am I caught up by it? 
+   
    I ripped up Representative Bob Dornan… when he’d just become a congressman.  He talked about “these hippies desecrating the flag” … So I called him on it: “Wait a minute.  A flag is supposed to represent everything that a country does.  It doesn’t only represent the good things.  If you burn the flag, you’re burning the flag for what you perceive to be the bad things the country has done.”
+   
    My sense of US versus Them had been alive and well on the streets around Columbia; and in the air force, where I rejected everything they put on me.  But it had been submerged when I got into the nightclubs and the smothering chatter of television. 
    So it was really disturbing when the time came to record FM & AM in June 1971 and somehow a lot of my confidence had vanished.  … I walked around Georgetown, crying all night.  I’d had my chance; the sound truck wouldn’t be back the next night.  
+   
    As usual, a price had to be paid for all this pleasure.  I discovered in July of ’72 that not only could you not say the Heavy Seven on television, you couldn’t say them in Milwaukee either.  Here’s how the AP reported it; Comedian George Carlin was taken into custody Friday night and charged with disorderly condust after he allegedly used profanity during a performance at Summerfest, a ten-day festival on the city’s lakefront.  Henry Jordan, executive director of Summerfest, said, “Carlin got up on stage and … he used a lot of profanity.  The police went up on stage after he had finished his act and arrested him.”  Jordan said he supported the police, adding that many in the crowd of 70,000 were children.
+   
    (Referring to the Supreme Court Case FCC vs Pacific Foundation)Justice William Brennan wrote the dissent:  “In our land of cultural pluralism there are many who think, act, and talk differently from the members of the Court and who do not share their fragile sensibilities.  It is only an acute ethnocentric myopia that enables the Court to approve censorship of the communications solely because of the words they contain.  The Court’s decision … is another of the dominant culture’s efforts to force those groups who do not share its mores to conform to its own way of thinking, acting, and speaking.” 
    Which in turn means that the only thing you can safely broadcast anytime, anywhere, in any medium, is material that’s suitable for kids.  Could this be why our society shows so many signs of arrested development?  
+   
    The timetable on this downward path is not exact-it never is, I guess- except that it began to happen with the success of my first three records…  The money didn’t help because she felt she(Brenda) was losing me.  She didn’t have a husband.  She had a man who was out there for everybody else, but was hardly ever there for her.  Or Kelly.  I don’t remember this-there’s a lot I don’t remember- but she said that once an interviewer asked me how old Kelly was, and I didn’t know.  
    That’s when Kelly sat us down and said, “This has got to stop.”  She was crying and sobbing:  “I have to tell you about how I feel about all this… It’s my turn to talk!”  Then and there she wrote a contract for us, which read: “You/I will not drink or snort coke or smoke pot for the next X days of our vacation.  We’re going to have a family vacation and we’re going to have a good time.”  She made us sign it.  …What she’d written and done was like a roundhouse punch to the solar plexus.  Even if it didn’t have immediate results, it had a dramatic long-term impact.  From then on I tried harder to do right.  
+   
    When it came to Kelly’s problems-especially pregnancy-I really abdicated my responsibilities.  And yet it was all directed at me, all designed to get my attention.  I just took an emotional walk on that.  What I should have done was to be more aware; intervened, opened up.  But I was afraid of what lay behind that door; afraid of what might come out.  One of my biggest fears-the most difficult area of my existence- has always been unleashing my feelings.
+   
    It’s impossible to overestimate the importance of Jerry Hamza in my career and life.  Without Jerry I don’t think I would’ve escaped from the financial and creative swamp that bad choices and drugs had landed me in by the late seventies.
+   
    (After having a near death heart attack)I don’t think I’d let surgery change my personality.  First of all, I’m extremely optimistic and positive.  Secondly, I hate to behave in clichés.
+   
    Liberal orthodoxy was as repugnant to me as conservative orthodoxy.
+   
    The noisier the culture becomes, the stronger your voice has to be to be heard above the din.  This was a conscious thought-that I’d better raise the level of my voice and therefore the intensity of my metaphors and images and words and topics to get and keep people’s attention.
+   
    When are we going to start assassinating the right people in this country?  (Why is it, by the way, that the right-wing guys assassins have tried to shoot survived?  Like Wallace and Reagan?  Don’t we have any marksmen on our side?)
+   
    No one is ever more herself or himself than when they really laugh.  Their defenses are down.  It’s very Zen-like, that moment.  They are completely open, completely themselves when that message hits the brain and the laugh begins.  That’s when new ideas can be implanted.  If a new idea slips in at that moment, it has a chance to grow.  So for that moment, that tiny moment, I own them.  
+   
    When we’re in the womb, we’re in the oceanic state, we are completely part of nature.  We are attached to nature, literally, physically.  Everything comes through tubes, you don’t have to do a goddam thing, everything’s cool.  You are at one.  You are in union with nature.  Then you get torn out of this fucking place there’s pain and screaming and the violence starts…UNION IS OVER.The rest of your life is spent yearning for reunion.  
+   
    I hate topical material because I hate to throw anything away.  
+   
    I hadn’t seen her(Brenda) for a week or more.  Jaundice had made her skin yellow.  All her hair was gone from the chemo.  She was unconscious and unresponsive but her eyes were open.  I have no idea if she was aware of anyone, but I saw her eyes were tearing up a little.  I took a tissue and gently wiped away her tears.  
+   
    You may know exactly what you’re going to do and that they’re predisposed to like you… But the instant I get out there it all starts over again.  Right from the beginning.  Win them over, and get ’em where I want ‘em!  That’s living!  That’s the thing that feeds me, that’s my nourishment.  
+   
    The larger the group, the more toxic, the more of your beauty as an individual you have to surrender for the sake of group thought.  And when you suspend your individual beauty you also give up a lot of your humanity.`,
   },
-
   NAPALM: {
     image: {
       name: "Napalm and Silly Putty",
