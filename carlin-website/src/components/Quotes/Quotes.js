@@ -37,7 +37,7 @@ function Quotes(props) {
         loop
         autoplay={true}
         onSlideChange={() => console.log()}
-        onSwiper={(swiper) => console.log()}
+        onSwiper={() => console.log()}
       >
         {CONSTANTS.QUOTES.map((quote, index) => {
           const key = `${index} + ${quote}`;

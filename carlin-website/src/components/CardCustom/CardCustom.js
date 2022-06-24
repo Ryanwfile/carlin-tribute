@@ -10,18 +10,9 @@ import SwiperCore, {
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
-
-// modules styles
 import "swiper/components/navigation/navigation.min.css";
 import "swiper/components/pagination/pagination.min.css";
-
-// import "swiper/css";
-// import "swiper/css/navigation";
-// import "swiper/css/pagination";
-// import "swiper/css/scrollbar";
-
 import { CONSTANTS } from "../../constants";
-// import { Navigation, Pagination, Scrollbar, A11y, Mousewheel } from "swiper";
 
 SwiperCore.use([Navigation, EffectCoverflow, Pagination, Scrollbar, Autoplay]);
 const useStyles = makeStyles({
@@ -29,36 +20,27 @@ const useStyles = makeStyles({
     height: 0,
     paddingTop: "100%",
   },
-  swiperContainer: {
-    paddingTop: 0,
-    paddingBottom: "3rem",
-  },
 });
 
 export default function CardCustom(cardProps) {
-  const { media, swiperContainer } = useStyles();
-
+  const { media } = useStyles();
   return (
     <Card>
       <Swiper
-        // modules={[Navigation, Pagination]}
-        spaceBetween={50}
+        spaceBetween={75}
         slidesPerView={3}
         centeredSlides
-        // grabCursor
-        className={swiperContainer}
         keyboard={{ enabled: true }}
-        // pagination={{ clickable: true }}
-        // scrollbar={{ draggable: true }}
         loop
         autoplay={true}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log()}
+        onSwiper={() => console.log()}
       >
         {CONSTANTS.IMAGES.map((image, index) => {
+          const key = `${index} + ${image.src}`;
           return (
             <SwiperSlide>
-              <CardMedia image={image.src} className={media} key={index} />
+              <CardMedia image={image.src} className={media} key={key} />
             </SwiperSlide>
           );
         })}
