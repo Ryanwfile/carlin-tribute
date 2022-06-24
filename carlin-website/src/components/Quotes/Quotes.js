@@ -22,27 +22,35 @@ import { CONSTANTS } from "../../constants";
 SwiperCore.use([Navigation, EffectCoverflow, Pagination, Scrollbar, Autoplay]);
 const useStyles = makeStyles({
   media: {
-    height: 0,
-    paddingTop: 0,
-
-    // verticalAlign: "middle",
-    display: "flex",
-    position: "relative",
+    // height: 0,
+    // paddingTop: 0,
+    // position: "relative",
+    // display: "flex",
+    // alignItems: "center",
+    // justifyContent: "center",
+    // backgroundColor: "orange",
+    // border: "5px solid black",
+    // verticalAlign: "baseline",
     // top: "10px",
-    fontSize: "75%",
+    // fontSize: "75%",
     // alignContent: "center",
-    lineHeight: "1",
+    // lineHeight: "1",
   },
   swiperContainer: {
-    paddingTop: 0,
-    paddingBottom: "3rem",
-    // display: "flex",
-    // alignContent: "center",
-    // alignItems: "center",
-    // alignSelf: "center",
-    // justifySelf: "center",
-    // justifyContent: "center",
-    // justifyItems: "center",
+    // paddingTop: 0,
+    // paddingBottom: "3rem",
+    position: "relative",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    // backgroundColor: "orange",
+    // border: "5px solid black",
+    alignContent: "center",
+    alignItems: "center",
+    alignSelf: "center",
+    justifySelf: "center",
+    justifyContent: "center",
+    justifyItems: "center",
   },
   // cardWrapper: {
   //   // color: "red",
@@ -58,37 +66,29 @@ const useStyles = makeStyles({
 });
 function Quotes(props) {
   const { media, swiperContainer } = useStyles();
-  // const quoteTheme = createMuiTheme({
-  //   typography: {
-  //     fontFamily: ["Stoke", "monospace"].join(","),
-  //     fontSize: "250%",
-  //     fontWeightBold: 900,
-  //     h4: {
-  //       lineHeight: 5.1,
-  //     },
-  //   },
-  // });
 
   return (
-    // <ThemeProvider theme={quoteTheme}>
-    <span
-      style={{
-        display: "flex",
-        alignItems: "center",
-        alignSelf: "center",
-        alignContent: "center",
-        justifyContent: "center",
-        justifySelf: "center",
-        justifyItems: "center",
-      }}
+    <div
+    // style={{
+    //   display: "flex",
+    //   alignItems: "center",
+    //   justifyContent: "center",
+    // }}
     >
-      <Card>
+      <Card
+        className={media}
+        // style={{
+        //   display: "flex",
+        //   alignItems: "center",
+        //   justifyContent: "center",
+        //   backgroundColor: "orange",
+        // }}
+      >
         <Swiper
-          // modules={[Navigation, Pagination]}
           spaceBetween={50}
           slidesPerView={1}
           speed={5000}
-          centeredSlides
+          // centeredSlides
           textAlign="center"
           className={swiperContainer}
           keyboard={{ enabled: true }}
@@ -121,7 +121,7 @@ function Quotes(props) {
           })}
         </Swiper>
       </Card>
-    </span>
+    </div>
     // </ThemeProvider>
   );
 }

@@ -687,5 +687,9 @@ export const CONSTANTS = {
       src: `i2PiDtHbLOY`,
       name: "Magazines",
     },
+    // {
+    //   src: `vuEQixrBKCc`,
+    //   name: "Euphemisms",
+    // },
   ],
 };
