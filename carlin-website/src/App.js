@@ -60,7 +60,10 @@ function App() {
             </Grid>
             <Grid item xs={2} alignSelf="center">
               <Item>
-                <Typography variant="h5">George Carlin Tribute</Typography>
+                <Typography variant="h5">
+                  {" "}
+                  <Link to="/">George Carlin Tribute </Link>
+                </Typography>
               </Item>
             </Grid>
             <Grid item xs={4} alignSelf="center" alignItems="center">
@@ -91,18 +94,7 @@ function App() {
               <Item>
                 <Switch>
                   <Route exact path="/">
-                    <Grid
-                      item
-                      container
-                      xs={12}
-                      sx={{
-                        paddingTop: -500,
-                      }}
-                    >
-                      {/* <Grid item xs={3}>
-                        <Bio></Bio>
-                      </Grid> */}
-                      {/* <Grid item xs={1}></Grid> */}
+                    <Grid item container xs={12}>
                       <Grid item xs={12}>
                         <About />
                       </Grid>
