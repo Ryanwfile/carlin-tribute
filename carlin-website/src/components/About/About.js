@@ -12,13 +12,13 @@ function About() {
       xs={12}
       direction="column"
     >
-      <Grid item>
+      <Grid item xs={12}>
         <Typography variant="h5">{CONSTANTS.ABOUT.title} </Typography>
       </Grid>
       <Grid item>
         <p
           style={{
-            fontSize: "",
+            fontSize: "18px",
           }}
         >
           {CONSTANTS.ABOUT.content}
